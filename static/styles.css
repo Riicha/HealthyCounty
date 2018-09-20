@@ -1,13 +1,81 @@
+.jumbotron { 
+    background-color: grey;
+    color: #ffffff;
+    padding: 100px 25px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.container-fluid {
+ padding: 60px 50px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+padding-top: 20px;
+background-color: #f1f1f1;
+height: 100%;
+}
+
+/*--------------------------------Use Case 2--------------------------------*/
+
+
+
+
 .panel-info{
     text-align: center;
 }
 
-.jumbotron{
+.jumbotronUc2{
     margin-top: 20px;
-    background-image: url("bacteria_by_filterforgedotcom.jpg");
+    /*background-image: url("bacteria_by_filterforgedotcom.jpg"); */
     background-size: cover;
     color:rgb(255, 255, 255);
     text-align: center;
+    height: 1500px;
+    width: 2500px;
 }
 
 #PieArea,
@@ -41,5 +109,14 @@
 
 .body{
     background-color: rgb(162, 218, 136);
+    padding: 0;
+    margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
 }
 

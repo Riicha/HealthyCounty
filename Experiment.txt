@@ -1,0 +1,30 @@
+      <!--table border = 1>
+         {% for key, value in result.items() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+      </table-->
+
+
+ <table>
+        {% for t in Table %}
+            <tr>
+            {% for i in t %}
+                <td>{{ i }}</td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+
+
+<table border = 1 id ="recommendedCounties">
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+       </table>

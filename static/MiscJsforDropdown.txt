@@ -1,0 +1,44 @@
+<script language="javascript" type="text/javascript">
+
+                //If parent option is changed
+                $("#preference1").change(function() {
+                    var parent = $(this).val(); //get option value from parent
+                        list("#preference1", '#preference2', parent);
+                    });
+                
+                    $("#preference2").change(function () {
+                        var parent = $(this).val(); //get option value from parent
+                        list("#preference2", '#child_selection2', parent);
+                    });
+                
+                
+                    $("#child_selection2").change(function () {
+                        var parent = $(this).val(); //get option value from parent
+                        list("#child_selection2", '#child_selection4', parent);
+                    });
+                
+                    function remove(array, element) {
+                        return array.filter(function (x) {
+                            return x.value != element
+                        });
+                    }
+                
+                //function to populate child select box
+                function list(parentOption, dependentChild, removeItem)
+                {
+                    var options = $(parentOption +' option');
+                    var values = $.map(options, function (option) {
+                        return { display: option.innerText, value: option.label };
+                });
+                
+                 
+                
+                    $(dependentChild).html(""); //reset child options
+                    var childArray = remove(values, removeItem);
+                    $(childArray).each(function (i) { //populate child options
+                        $(dependentChild).append("<option value=\"" + childArray[i].value + "\">" + childArray[i].display + "</option>");
+                    });
+                
+                }
+                
+            </script>

@@ -1,6 +1,6 @@
 import pymongo 
-from flask import(Flask, render_template,jsonify)
-
+from flask import(Flask, render_template,jsonify, request)
+from Data.CountySelection import CountySelection
 #------------------------------------------------------------------------------------#
 # Flask Setup #
 #------------------------------------------------------------------------------------#
@@ -9,26 +9,51 @@ app = Flask(__name__)
 #------------------------------------------------------------------------------------#
 # Local MongoDB connection #
 #------------------------------------------------------------------------------------#
-# conn = "mongodb://localhost:27017"
-# client = pymongo.MongoClient(conn)
+conn = "mongodb://localhost:27017"
+client = pymongo.MongoClient(conn)
 
 # # create / Use database
-# db = client.HealthDB
+db = client.healthi_db
 
 #------------------------------------------------------------------------------------#
 # MLab MongoDB connection #
 #------------------------------------------------------------------------------------#
-conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+# conn = 'mongodb://<add user Pwd here>@ds255332.mlab.com:55332/healthi_db'
+# client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+# db = client.get_default_database()
 
 #Database connection
-db = client.get_default_database()
+
 # db = client.get_database('healthi_db')
 
 # Home Page
 @app.route("/")
 def home():
-    return(render_template("Landing.html"))
+    result = request.form
+    for r in request.form:
+            print(r)
+    return render_template("Landing.html",result = result)
+
+# User selection is sent
+@app.route('/attributeSelection',methods = ['POST', 'GET'])
+def result():
+   if request.method == 'POST':
+      result = request.form
+      selection = {}
+      for select in result.items():
+            # populate the selection dictionary
+            selection[select[0]] = select[1]
+
+      print('user selection')
+      print(selection)
+    #   Get the Top 3 counties per user selection
+      userPref = CountySelection(selection)
+      
+      userPref = userPref.Selection()
+      print(userPref.to_html())
+    #   print(userPref.to_html())
+    #   Send back the html back to user
+      return render_template("Landing.html",result = userPref.to_html())
 
 # Route to display all the five attributes to measure health of a county
 @app.route("/attributes")
@@ -106,8 +131,44 @@ def details(state):
 # Initiate Flask app
 #------------------------------------------------------------------------------------#
 if __name__=="__main__":
-    connect_args={'check_same_thread':False}
+    #connect_args={'check_same_thread':False}
     app.run(debug=True)
 
 #Pragati : 9/14/2018. Updated to create 4 routes and modified 1 route.
-#Tested mlab cloud mongodb as well as with local mongodb.    
+#Tested mlab cloud mongodb as well as with local mongodb. 
+# Updated & Tested Riicha : 9/15/2018 Web Scaped & Added # 1. Lat & Long of counties.2. Link to Wiki 
+# 3. population & 4. Area etc
+
+
+#    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+# from flask import Flask, render_template, request
+# app = Flask(__name__)
+
+# @app.route('/')
+# def student():
+#    return render_template('student.html')
+
+# @app.route('/result',methods = ['POST', 'GET'])
+# def result():
+#    if request.method == 'POST':
+#       result = request.form
+#       return render_template("result.html",result = result)
+
+# if __name__ == '__main__':
+#    app.run(debug = True)

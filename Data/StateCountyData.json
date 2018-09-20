@@ -33,7 +33,9 @@
                     "TotalArea": "15,011.605",
                     "Latitude": "+55.125713\u00b0",
                     "Longitude": "\u2013162.030237\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Aleutians_East_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Aleutians_East_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -64,7 +66,9 @@
                     "TotalArea": "14,116.509",
                     "Latitude": "+52.319360\u00b0",
                     "Longitude": "\u2013172.454123\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Aleutians_West_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Aleutians_West_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -95,7 +99,9 @@
                     "TotalArea": "1,961.095",
                     "Latitude": "+61.191900\u00b0",
                     "Longitude": "\u2013149.762097\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Anchorage,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Anchorage,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -126,7 +132,9 @@
                     "TotalArea": "45,508.459",
                     "Latitude": "+60.888556\u00b0",
                     "Longitude": "\u2013161.191411\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bethel_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bethel_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -157,7 +165,9 @@
                     "TotalArea": "887.683",
                     "Latitude": "+58.690594\u00b0",
                     "Longitude": "\u2013156.786726\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bristol_Bay_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bristol_Bay_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -188,7 +198,9 @@
                     "TotalArea": "12,774.532",
                     "Latitude": "+63.893564\u00b0",
                     "Longitude": "\u2013149.104615\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Denali_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Denali_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -219,7 +231,9 @@
                     "TotalArea": "20,928.407",
                     "Latitude": "+59.190911\u00b0",
                     "Longitude": "\u2013158.614040\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Dillingham_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Dillingham_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -250,7 +264,9 @@
                     "TotalArea": "7,444.019",
                     "Latitude": "+64.818590\u00b0",
                     "Longitude": "\u2013147.568384\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fairbanks_North_Star_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fairbanks_North_Star_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -281,7 +297,9 @@
                     "TotalArea": "2,725.823",
                     "Latitude": "+59.245450\u00b0",
                     "Longitude": "\u2013135.529519\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Haines_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Haines_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -312,7 +330,9 @@
                     "TotalArea": "3,255.012",
                     "Latitude": "+58.351422\u00b0",
                     "Longitude": "\u2013134.511579\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Juneau,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Juneau,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -343,7 +363,9 @@
                     "TotalArea": "24,754.597",
                     "Latitude": "+60.349178\u00b0",
                     "Longitude": "\u2013150.987663\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kenai_Peninsula_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kenai_Peninsula_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -374,7 +396,9 @@
                     "TotalArea": "1,753.977",
                     "Latitude": "+55.354938\u00b0",
                     "Longitude": "\u2013131.620295\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ketchikan_Gateway_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ketchikan_Gateway_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -405,7 +429,9 @@
                     "TotalArea": "12,023.675",
                     "Latitude": "+57.694078\u00b0",
                     "Longitude": "\u2013152.682317\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kodiak_Island_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kodiak_Island_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -436,7 +462,9 @@
                     "TotalArea": "30,906.961",
                     "Latitude": "+58.605648\u00b0",
                     "Longitude": "\u2013156.409989\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lake_and_Peninsula_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lake_and_Peninsula_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -467,7 +495,9 @@
                     "TotalArea": "94,762.645",
                     "Latitude": "+70.599509\u00b0",
                     "Longitude": "\u2013153.940111\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/North_Slope_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/North_Slope_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -498,7 +528,42 @@
                     "TotalArea": "40,762.001",
                     "Latitude": "+66.822031\u00b0",
                     "Longitude": "\u2013160.646404\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Northwest_Arctic_Borough,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Northwest_Arctic_Borough,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Sitka",
+                    "County FIPS": "02220",
+                    "QualityofLife": {
+                        "Z-Score": -0.062533619,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.151993451,
+                        "Rank": 5.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.092493515,
+                        "Rank": 5.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.35787987,
+                        "Rank": 1.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0080386915,
+                        "Rank": 12.0
+                    },
+                    "Population": "8,835",
+                    "TotalArea": "4,811.530",
+                    "Latitude": "+57.079871\u00b0",
+                    "Longitude": "\u2013135.331757\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sitka,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -529,7 +594,9 @@
                     "TotalArea": "11,376.733",
                     "Latitude": "+58.321676\u00b0",
                     "Longitude": "\u2013135.458953\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Skagway-Hoonah-Angoon_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Skagway-Hoonah-Angoon_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -560,7 +627,9 @@
                     "TotalArea": "25,061.189",
                     "Latitude": "+63.607284\u00b0",
                     "Longitude": "\u2013143.910084\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Southeast_Fairbanks_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Southeast_Fairbanks_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -591,7 +660,9 @@
                     "TotalArea": "9,021.212",
                     "Latitude": "+56.714340\u00b0",
                     "Longitude": "\u2013133.073562\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Wrangell-Petersburg_Census_Area,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Wrangell-Petersburg_Census_Area,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             },
             {
@@ -622,7 +693,9 @@
                     "TotalArea": "9,459.279",
                     "Latitude": "+59.793489\u00b0",
                     "Longitude": "\u2013140.271248\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Yakutat,_Alaska"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Yakutat,_Alaska",
+                    "StateLatitude": 61.370716,
+                    "StateLongitude": -152.404419
                 }
             }
         ]
@@ -661,7 +734,9 @@
                     "TotalArea": "821.146",
                     "Latitude": "+37.716662\u00b0",
                     "Longitude": "\u2013122.096151\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Alameda_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Alameda_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -692,7 +767,9 @@
                     "TotalArea": "743.189",
                     "Latitude": "+38.632506\u00b0",
                     "Longitude": "\u2013119.888663\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Alpine_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Alpine_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -723,7 +800,42 @@
                     "TotalArea": "604.691",
                     "Latitude": "+38.428879\u00b0",
                     "Longitude": "\u2013120.715248\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Amador_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Amador_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Butte",
+                    "County FIPS": "06007",
+                    "QualityofLife": {
+                        "Z-Score": 0.028647655,
+                        "Rank": 31.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1656467163,
+                        "Rank": 44.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0119902463,
+                        "Rank": 30.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.020136234,
+                        "Rank": 27.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.062320725,
+                        "Rank": 11.0
+                    },
+                    "Population": "203,171",
+                    "TotalArea": "1,677.106",
+                    "Latitude": "+39.648354\u00b0",
+                    "Longitude": "\u2013121.646310\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Butte_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -754,7 +866,9 @@
                     "TotalArea": "1,036.844",
                     "Latitude": "+38.167573\u00b0",
                     "Longitude": "\u2013120.557245\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Calaveras_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Calaveras_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -785,7 +899,9 @@
                     "TotalArea": "1,156.219",
                     "Latitude": "+39.187495\u00b0",
                     "Longitude": "\u2013122.152389\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Colusa_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Colusa_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -816,7 +932,9 @@
                     "TotalArea": "802.150",
                     "Latitude": "+37.942423\u00b0",
                     "Longitude": "\u2013122.060886\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Contra_Costa_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Contra_Costa_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -847,7 +965,9 @@
                     "TotalArea": "1,229.753",
                     "Latitude": "+41.735225\u00b0",
                     "Longitude": "\u2013124.113924\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Del_Norte_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Del_Norte_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -878,7 +998,9 @@
                     "TotalArea": "1,788.097",
                     "Latitude": "+38.768651\u00b0",
                     "Longitude": "\u2013120.571902\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/El_Dorado_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/El_Dorado_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -909,7 +1031,42 @@
                     "TotalArea": "6,017.421",
                     "Latitude": "+36.638374\u00b0",
                     "Longitude": "\u2013119.903470\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fresno_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fresno_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Glenn",
+                    "County FIPS": "06021",
+                    "QualityofLife": {
+                        "Z-Score": 0.2318517073,
+                        "Rank": 45.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1026642007,
+                        "Rank": 38.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2558879613,
+                        "Rank": 57.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1563360974,
+                        "Rank": 46.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.068130761,
+                        "Rank": 7.0
+                    },
+                    "Population": "26,453",
+                    "TotalArea": "1,327.156",
+                    "Latitude": "+39.630023\u00b0",
+                    "Longitude": "\u2013122.291407\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Glenn_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -940,7 +1097,9 @@
                     "TotalArea": "4,052.225",
                     "Latitude": "+40.747403\u00b0",
                     "Longitude": "\u2013123.988265\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Humboldt_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Humboldt_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -971,7 +1130,141 @@
                     "TotalArea": "4,481.730",
                     "Latitude": "+32.963098\u00b0",
                     "Longitude": "\u2013115.487593\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Imperial_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Imperial_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Inyo",
+                    "County FIPS": "06027",
+                    "QualityofLife": {
+                        "Z-Score": 0.2197779153,
+                        "Rank": 43.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0141222234,
+                        "Rank": 29.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.075198697,
+                        "Rank": 19.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1096885762,
+                        "Rank": 39.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.067000652,
+                        "Rank": 8.0
+                    },
+                    "Population": "17,945",
+                    "TotalArea": "10,226.978",
+                    "Latitude": "+36.709037\u00b0",
+                    "Longitude": "\u2013117.693329\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Inyo_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kern",
+                    "County FIPS": "06029",
+                    "QualityofLife": {
+                        "Z-Score": 0.5647278428,
+                        "Rank": 55.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.4562441787,
+                        "Rank": 57.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1722405354,
+                        "Rank": 52.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3511399778,
+                        "Rank": 53.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0797990888,
+                        "Rank": 52.0
+                    },
+                    "Population": "661,645",
+                    "TotalArea": "8,161.421",
+                    "Latitude": "+35.296023\u00b0",
+                    "Longitude": "\u2013118.683344\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kern_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Kings",
+                    "County FIPS": "06031",
+                    "QualityofLife": {
+                        "Z-Score": 0.230040338,
+                        "Rank": 44.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1971718837,
+                        "Rank": 49.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1454452604,
+                        "Rank": 48.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1789625648,
+                        "Rank": 48.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0636739745,
+                        "Rank": 50.0
+                    },
+                    "Population": "129,461",
+                    "TotalArea": "1,391.491",
+                    "Latitude": "+36.155141\u00b0",
+                    "Longitude": "\u2013119.811272\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kings_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lake",
+                    "County FIPS": "06033",
+                    "QualityofLife": {
+                        "Z-Score": 0.3482242494,
+                        "Rank": 48.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2438441338,
+                        "Rank": 53.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1309489545,
+                        "Rank": 46.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2998373494,
+                        "Rank": 51.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0059829404,
+                        "Rank": 31.0
+                    },
+                    "Population": "58,309",
+                    "TotalArea": "1,329.479",
+                    "Latitude": "+39.023264\u00b0",
+                    "Longitude": "\u2013122.751791\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lake_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1002,7 +1295,9 @@
                     "TotalArea": "4,720.372",
                     "Latitude": "+40.612365\u00b0",
                     "Longitude": "\u2013120.720234\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lassen_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lassen_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1033,7 +1328,9 @@
                     "TotalArea": "4,752.323",
                     "Latitude": "+34.088510\u00b0",
                     "Longitude": "\u2013118.234216\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Los_Angeles_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Los_Angeles_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1064,7 +1361,42 @@
                     "TotalArea": "2,153.322",
                     "Latitude": "+37.035073\u00b0",
                     "Longitude": "\u2013120.032438\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Madera_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Madera_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Marin",
+                    "County FIPS": "06041",
+                    "QualityofLife": {
+                        "Z-Score": -0.593200273,
+                        "Rank": 3.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.35912171,
+                        "Rank": 3.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.308262442,
+                        "Rank": 1.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.407786062,
+                        "Rank": 3.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.064534809,
+                        "Rank": 10.0
+                    },
+                    "Population": "247,289",
+                    "TotalArea": "828.195",
+                    "Latitude": "+37.985723\u00b0",
+                    "Longitude": "\u2013122.575951\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Marin_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1095,7 +1427,9 @@
                     "TotalArea": "1,462.787",
                     "Latitude": "+37.595471\u00b0",
                     "Longitude": "\u2013120.003539\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mariposa_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mariposa_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1126,7 +1460,9 @@
                     "TotalArea": "3,878.136",
                     "Latitude": "+39.363102\u00b0",
                     "Longitude": "\u2013123.430217\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mendocino_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mendocino_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1157,7 +1493,75 @@
                     "TotalArea": "1,971.874",
                     "Latitude": "+37.245783\u00b0",
                     "Longitude": "\u2013120.674118\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Merced_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Merced_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Modoc",
+                    "County FIPS": "06049",
+                    "QualityofLife": {
+                        "Z-Score": 0.0654629601,
+                        "Rank": 32.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0940661187,
+                        "Rank": 35.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0432145088,
+                        "Rank": 32.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1415474886,
+                        "Rank": 44.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.138013832,
+                        "Rank": 1.0
+                    },
+                    "Population": "9,449",
+                    "TotalArea": "4,203.374",
+                    "Latitude": "+41.527360\u00b0",
+                    "Longitude": "\u2013120.790625\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Modoc_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Mono",
+                    "County FIPS": "06051",
+                    "QualityofLife": {
+                        "Z-Score": 0.0670618373,
+                        "Rank": 34.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0203468296,
+                        "Rank": 30.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0638530967,
+                        "Rank": 35.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.159879366,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.109314954,
+                        "Rank": 3.0
+                    },
+                    "Population": "12,853",
+                    "TotalArea": "3,131.801",
+                    "Latitude": "+37.853807\u00b0",
+                    "Longitude": "\u2013118.961375\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mono_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1188,7 +1592,42 @@
                     "TotalArea": "3,771.072",
                     "Latitude": "+36.450732\u00b0",
                     "Longitude": "\u2013121.528953\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monterey_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monterey_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Napa",
+                    "County FIPS": "06055",
+                    "QualityofLife": {
+                        "Z-Score": -0.385757228,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.10801783,
+                        "Rank": 21.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.092372147,
+                        "Rank": 15.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.280867825,
+                        "Rank": 9.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0049381064,
+                        "Rank": 29.0
+                    },
+                    "Population": "124,279",
+                    "TotalArea": "788.268",
+                    "Latitude": "+38.353762\u00b0",
+                    "Longitude": "\u2013122.332133\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Napa_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1219,7 +1658,9 @@
                     "TotalArea": "974.491",
                     "Latitude": "+39.270775\u00b0",
                     "Longitude": "\u2013120.814268\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Nevada_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Nevada_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1250,7 +1691,9 @@
                     "TotalArea": "947.976",
                     "Latitude": "+33.731518\u00b0",
                     "Longitude": "\u2013117.861663\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orange_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orange_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1281,7 +1724,9 @@
                     "TotalArea": "1,502.778",
                     "Latitude": "+38.971576\u00b0",
                     "Longitude": "\u2013120.947618\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Placer_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Placer_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1312,7 +1757,9 @@
                     "TotalArea": "2,613.479",
                     "Latitude": "+40.020149\u00b0",
                     "Longitude": "\u2013120.851195\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Plumas_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Plumas_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1343,7 +1790,9 @@
                     "TotalArea": "7,303.130",
                     "Latitude": "+33.783307\u00b0",
                     "Longitude": "\u2013116.803605\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Riverside_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Riverside_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1374,7 +1823,9 @@
                     "TotalArea": "995.482",
                     "Latitude": "+38.561106\u00b0",
                     "Longitude": "\u2013121.389266\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sacramento_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sacramento_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1405,7 +1856,9 @@
                     "TotalArea": "1,390.735",
                     "Latitude": "+36.745753\u00b0",
                     "Longitude": "\u2013121.288843\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Benito_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Benito_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1436,7 +1889,9 @@
                     "TotalArea": "20,105.316",
                     "Latitude": "+34.392344\u00b0",
                     "Longitude": "\u2013116.982433\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Bernardino_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Bernardino_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1467,7 +1922,9 @@
                     "TotalArea": "4,525.515",
                     "Latitude": "+32.904616\u00b0",
                     "Longitude": "\u2013117.062993\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Diego_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Diego_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1498,7 +1955,9 @@
                     "TotalArea": "231.917",
                     "Latitude": "+37.759881\u00b0",
                     "Longitude": "\u2013122.437392\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Francisco_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Francisco_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1529,7 +1988,9 @@
                     "TotalArea": "1,426.250",
                     "Latitude": "+37.945959\u00b0",
                     "Longitude": "\u2013121.281307\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Joaquin_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Joaquin_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1560,7 +2021,9 @@
                     "TotalArea": "3,615.544",
                     "Latitude": "+35.373909\u00b0",
                     "Longitude": "\u2013120.587460\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Luis_Obispo_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Luis_Obispo_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1591,7 +2054,9 @@
                     "TotalArea": "741.013",
                     "Latitude": "+37.531037\u00b0",
                     "Longitude": "\u2013122.331932\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Mateo_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/San_Mateo_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1622,7 +2087,9 @@
                     "TotalArea": "3,789.080",
                     "Latitude": "+34.649384\u00b0",
                     "Longitude": "\u2013120.071425\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Barbara_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Barbara_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1653,7 +2120,9 @@
                     "TotalArea": "1,304.006",
                     "Latitude": "+37.306509\u00b0",
                     "Longitude": "\u2013121.912818\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Clara_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Clara_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1684,7 +2153,9 @@
                     "TotalArea": "607.158",
                     "Latitude": "+37.002349\u00b0",
                     "Longitude": "\u2013121.973761\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Cruz_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Santa_Cruz_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1715,7 +2186,9 @@
                     "TotalArea": "3,847.436",
                     "Latitude": "+40.688705\u00b0",
                     "Longitude": "\u2013122.121202\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Shasta_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Shasta_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1746,7 +2219,9 @@
                     "TotalArea": "961.974",
                     "Latitude": "+39.582063\u00b0",
                     "Longitude": "\u2013120.534038\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sierra_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sierra_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1777,7 +2252,9 @@
                     "TotalArea": "6,347.462",
                     "Latitude": "+41.614943\u00b0",
                     "Longitude": "\u2013122.502816\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Siskiyou_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Siskiyou_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1808,7 +2285,9 @@
                     "TotalArea": "906.671",
                     "Latitude": "+38.235934\u00b0",
                     "Longitude": "\u2013122.051826\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Solano_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Solano_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1839,7 +2318,9 @@
                     "TotalArea": "1,768.226",
                     "Latitude": "+38.440089\u00b0",
                     "Longitude": "\u2013122.768624\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sonoma_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sonoma_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1870,7 +2351,9 @@
                     "TotalArea": "1,514.668",
                     "Latitude": "+37.613805\u00b0",
                     "Longitude": "\u2013120.958800\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Stanislaus_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Stanislaus_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1901,7 +2384,9 @@
                     "TotalArea": "608.583",
                     "Latitude": "+39.076193\u00b0",
                     "Longitude": "\u2013121.658159\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sutter_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sutter_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1932,7 +2417,9 @@
                     "TotalArea": "2,962.271",
                     "Latitude": "+40.123054\u00b0",
                     "Longitude": "\u2013122.135340\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tehama_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tehama_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1963,7 +2450,9 @@
                     "TotalArea": "3,207.541",
                     "Latitude": "+40.667129\u00b0",
                     "Longitude": "\u2013123.070397\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Trinity_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Trinity_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -1994,7 +2483,9 @@
                     "TotalArea": "4,839.089",
                     "Latitude": "+36.234647\u00b0",
                     "Longitude": "\u2013119.166093\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tulare_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tulare_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -2025,7 +2516,9 @@
                     "TotalArea": "2,274.343",
                     "Latitude": "+37.981845\u00b0",
                     "Longitude": "\u2013120.232775\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tuolumne_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tuolumne_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             },
             {
@@ -2056,7 +2549,75 @@
                     "TotalArea": "2,208.197",
                     "Latitude": "+34.277048\u00b0",
                     "Longitude": "\u2013119.045326\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ventura_County,_California"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ventura_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yolo",
+                    "County FIPS": "06113",
+                    "QualityofLife": {
+                        "Z-Score": -0.230289821,
+                        "Rank": 16.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.112413986,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.17472946,
+                        "Rank": 7.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.151727882,
+                        "Rank": 16.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.001849668,
+                        "Rank": 26.0
+                    },
+                    "Population": "168,660",
+                    "TotalArea": "1,022.889",
+                    "Latitude": "+38.634155\u00b0",
+                    "Longitude": "\u2013121.775709\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Yolo_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yuba",
+                    "County FIPS": "06115",
+                    "QualityofLife": {
+                        "Z-Score": 0.0930580374,
+                        "Rank": 37.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.2554081372,
+                        "Rank": 54.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2278681413,
+                        "Rank": 56.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1269331758,
+                        "Rank": 41.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0271036346,
+                        "Rank": 40.0
+                    },
+                    "Population": "60,219",
+                    "TotalArea": "643.732",
+                    "Latitude": "+39.207758\u00b0",
+                    "Longitude": "\u2013121.422281\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Yuba_County,_California",
+                    "StateLatitude": 36.116203,
+                    "StateLongitude": -119.681564
                 }
             }
         ]
@@ -2095,7 +2656,9 @@
                     "TotalArea": "836.956",
                     "Latitude": "+41.212896\u00b0",
                     "Longitude": "\u201373.354820\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fairfield_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2126,7 +2689,9 @@
                     "TotalArea": "750.572",
                     "Latitude": "+41.769967\u00b0",
                     "Longitude": "\u201372.715449\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hartford_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hartford_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2157,7 +2722,9 @@
                     "TotalArea": "944.574",
                     "Latitude": "+41.754255\u00b0",
                     "Longitude": "\u201373.212688\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Litchfield_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Litchfield_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2188,7 +2755,9 @@
                     "TotalArea": "439.069",
                     "Latitude": "+41.449378\u00b0",
                     "Longitude": "\u201372.539622\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Middlesex_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Middlesex_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2219,7 +2788,9 @@
                     "TotalArea": "862.017",
                     "Latitude": "+41.390764\u00b0",
                     "Longitude": "\u201372.940320\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_Haven_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_Haven_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2250,7 +2821,9 @@
                     "TotalArea": "771.663",
                     "Latitude": "+41.446109\u00b0",
                     "Longitude": "\u201372.092949\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_London_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_London_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2281,7 +2854,9 @@
                     "TotalArea": "417.013",
                     "Latitude": "+41.853064\u00b0",
                     "Longitude": "\u201372.358387\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tolland_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tolland_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             },
             {
@@ -2312,7 +2887,9 @@
                     "TotalArea": "521.466",
                     "Latitude": "+41.834314\u00b0",
                     "Longitude": "\u201371.988008\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Windham_County,_Connecticut"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Windham_County,_Connecticut",
+                    "StateLatitude": 41.597782,
+                    "StateLongitude": -72.755371
                 }
             }
         ]
@@ -2351,7 +2928,9 @@
                     "TotalArea": "671.446",
                     "Latitude": "+39.447721\u00b0",
                     "Longitude": "\u201374.621566\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Atlantic_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Atlantic_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2382,7 +2961,9 @@
                     "TotalArea": "246.797",
                     "Latitude": "+40.930457\u00b0",
                     "Longitude": "\u201374.059037\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bergen_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bergen_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2413,7 +2994,9 @@
                     "TotalArea": "819.429",
                     "Latitude": "+39.955204\u00b0",
                     "Longitude": "\u201374.775955\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Burlington_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Burlington_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2444,7 +3027,9 @@
                     "TotalArea": "227.580",
                     "Latitude": "+39.869213\u00b0",
                     "Longitude": "\u201375.029263\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Camden_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Camden_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2475,7 +3060,9 @@
                     "TotalArea": "620.280",
                     "Latitude": "+39.088069\u00b0",
                     "Longitude": "\u201374.799100\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cape_May_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cape_May_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2506,7 +3093,42 @@
                     "TotalArea": "676.592",
                     "Latitude": "+39.399565\u00b0",
                     "Longitude": "\u201375.090565\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cumberland_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cumberland_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Essex",
+                    "County FIPS": "34013",
+                    "QualityofLife": {
+                        "Z-Score": 0.570170903,
+                        "Rank": 20.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.0832775018,
+                        "Rank": 14.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0788596777,
+                        "Rank": 17.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.3998004322,
+                        "Rank": 20.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.037940123,
+                        "Rank": 19.0
+                    },
+                    "Population": "793,633",
+                    "TotalArea": "129.560",
+                    "Latitude": "+40.773050\u00b0",
+                    "Longitude": "\u201374.223065\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Essex_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2537,7 +3159,9 @@
                     "TotalArea": "336.920",
                     "Latitude": "+39.752778\u00b0",
                     "Longitude": "\u201375.136197\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Gloucester_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Gloucester_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2568,7 +3192,9 @@
                     "TotalArea": "62.432",
                     "Latitude": "+40.740351\u00b0",
                     "Longitude": "\u201374.069000\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hudson_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hudson_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2599,7 +3225,9 @@
                     "TotalArea": "437.759",
                     "Latitude": "+40.573190\u00b0",
                     "Longitude": "\u201374.897060\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hunterdon_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hunterdon_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2630,7 +3258,9 @@
                     "TotalArea": "228.836",
                     "Latitude": "+40.252908\u00b0",
                     "Longitude": "\u201374.711654\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mercer_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Mercer_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2661,7 +3291,9 @@
                     "TotalArea": "322.512",
                     "Latitude": "+40.494044\u00b0",
                     "Longitude": "\u201374.383918\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Middlesex_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Middlesex_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2692,7 +3324,9 @@
                     "TotalArea": "665.118",
                     "Latitude": "+40.285874\u00b0",
                     "Longitude": "\u201374.127063\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monmouth_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monmouth_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2723,7 +3357,42 @@
                     "TotalArea": "481.286",
                     "Latitude": "+40.867167\u00b0",
                     "Longitude": "\u201374.500442\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Morris_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Morris_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Ocean",
+                    "County FIPS": "34029",
+                    "QualityofLife": {
+                        "Z-Score": -0.289414567,
+                        "Rank": 7.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.022269178,
+                        "Rank": 11.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.012641294,
+                        "Rank": 11.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0212349717,
+                        "Rank": 12.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.026430303,
+                        "Rank": 5.0
+                    },
+                    "Population": "510,916",
+                    "TotalArea": "915.878",
+                    "Latitude": "+39.918818\u00b0",
+                    "Longitude": "\u201374.210903\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ocean_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2754,7 +3423,42 @@
                     "TotalArea": "197.051",
                     "Latitude": "+40.946491\u00b0",
                     "Longitude": "\u201374.216831\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Passaic_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Passaic_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Salem",
+                    "County FIPS": "34033",
+                    "QualityofLife": {
+                        "Z-Score": 0.2340370697,
+                        "Rank": 14.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.3287936626,
+                        "Rank": 20.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.2296139967,
+                        "Rank": 20.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.2148369209,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0300104008,
+                        "Rank": 17.0
+                    },
+                    "Population": "64,285",
+                    "TotalArea": "372.571",
+                    "Latitude": "+39.628764\u00b0",
+                    "Longitude": "\u201375.385539\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Salem_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2785,7 +3489,9 @@
                     "TotalArea": "305.050",
                     "Latitude": "+40.566953\u00b0",
                     "Longitude": "\u201374.580607\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Somerset_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Somerset_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2816,7 +3522,42 @@
                     "TotalArea": "535.990",
                     "Latitude": "+41.099846\u00b0",
                     "Longitude": "\u201374.665155\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sussex_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sussex_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Union",
+                    "County FIPS": "34039",
+                    "QualityofLife": {
+                        "Z-Score": -0.053543446,
+                        "Rank": 12.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.134687913,
+                        "Rank": 6.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.0319456329,
+                        "Rank": 14.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.0319749296,
+                        "Rank": 13.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0114916821,
+                        "Rank": 15.0
+                    },
+                    "Population": "522,541",
+                    "TotalArea": "105.461",
+                    "Latitude": "+40.657752\u00b0",
+                    "Longitude": "\u201374.301654\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Union_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             },
             {
@@ -2847,7 +3588,9 @@
                     "TotalArea": "362.754",
                     "Latitude": "+40.803025\u00b0",
                     "Longitude": "\u201375.030699\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Warren_County,_New_Jersey"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Warren_County,_New_Jersey",
+                    "StateLatitude": 40.298904,
+                    "StateLongitude": -74.521011
                 }
             }
         ]
@@ -2886,7 +3629,9 @@
                     "TotalArea": "533.209",
                     "Latitude": "+42.662095\u00b0",
                     "Longitude": "\u201373.849077\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Albany_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Albany_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -2917,7 +3662,9 @@
                     "TotalArea": "1,034.420",
                     "Latitude": "+42.232936\u00b0",
                     "Longitude": "\u201378.026092\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Allegany_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Allegany_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -2948,7 +3695,9 @@
                     "TotalArea": "57.426",
                     "Latitude": "+40.846761\u00b0",
                     "Longitude": "\u201373.873207\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bronx_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Bronx_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -2979,7 +3728,9 @@
                     "TotalArea": "715.465",
                     "Latitude": "+42.136984\u00b0",
                     "Longitude": "\u201375.888310\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Broome_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Broome_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3010,7 +3761,9 @@
                     "TotalArea": "1,322.250",
                     "Latitude": "+42.230316\u00b0",
                     "Longitude": "\u201378.638208\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cattaraugus_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cattaraugus_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3041,7 +3794,9 @@
                     "TotalArea": "863.642",
                     "Latitude": "+42.933530\u00b0",
                     "Longitude": "\u201376.564638\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cayuga_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cayuga_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3072,7 +3827,9 @@
                     "TotalArea": "1,500.017",
                     "Latitude": "+42.240700\u00b0",
                     "Longitude": "\u201379.345719\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chautauqua_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chautauqua_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3103,7 +3860,9 @@
                     "TotalArea": "410.787",
                     "Latitude": "+42.129017\u00b0",
                     "Longitude": "\u201376.790266\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chemung_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chemung_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3134,7 +3893,9 @@
                     "TotalArea": "898.701",
                     "Latitude": "+42.483042\u00b0",
                     "Longitude": "\u201375.606772\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chenango_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Chenango_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3165,7 +3926,9 @@
                     "TotalArea": "1,117.615",
                     "Latitude": "+44.732874\u00b0",
                     "Longitude": "\u201373.589895\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Clinton_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Clinton_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3196,7 +3959,9 @@
                     "TotalArea": "648.272",
                     "Latitude": "+42.265195\u00b0",
                     "Longitude": "\u201373.656200\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Columbia_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Columbia_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3227,7 +3992,9 @@
                     "TotalArea": "501.522",
                     "Latitude": "+42.589160\u00b0",
                     "Longitude": "\u201376.099870\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cortland_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Cortland_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3258,7 +4025,9 @@
                     "TotalArea": "1,468.042",
                     "Latitude": "+42.217290\u00b0",
                     "Longitude": "\u201375.004281\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Delaware_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Delaware_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3289,7 +4058,75 @@
                     "TotalArea": "825.376",
                     "Latitude": "+41.717586\u00b0",
                     "Longitude": "\u201373.806994\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Dutchess_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Dutchess_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Erie",
+                    "County FIPS": "36029",
+                    "QualityofLife": {
+                        "Z-Score": 0.3787867552,
+                        "Rank": 56.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.064885433,
+                        "Rank": 38.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.110796036,
+                        "Rank": 9.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.004742591,
+                        "Rank": 30.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0679563351,
+                        "Rank": 60.0
+                    },
+                    "Population": "950,265",
+                    "TotalArea": "1,226.892",
+                    "Latitude": "+42.859908\u00b0",
+                    "Longitude": "\u201378.796303\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Erie_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Essex",
+                    "County FIPS": "36031",
+                    "QualityofLife": {
+                        "Z-Score": -0.256786743,
+                        "Rank": 15.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.071905701,
+                        "Rank": 18.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.012392656,
+                        "Rank": 31.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.029102006,
+                        "Rank": 28.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.033050992,
+                        "Rank": 12.0
+                    },
+                    "Population": "38,851",
+                    "TotalArea": "1,916.501",
+                    "Latitude": "+44.162194\u00b0",
+                    "Longitude": "\u201373.737594\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Essex_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3320,7 +4157,9 @@
                     "TotalArea": "1,697.439",
                     "Latitude": "+44.600374\u00b0",
                     "Longitude": "\u201374.308735\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Franklin_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Franklin_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3351,7 +4190,9 @@
                     "TotalArea": "532.899",
                     "Latitude": "+43.078933\u00b0",
                     "Longitude": "\u201374.364606\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fulton_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Fulton_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3382,7 +4223,9 @@
                     "TotalArea": "495.334",
                     "Latitude": "+42.996299\u00b0",
                     "Longitude": "\u201378.169669\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Genesee_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Genesee_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3413,7 +4256,9 @@
                     "TotalArea": "658.130",
                     "Latitude": "+42.299757\u00b0",
                     "Longitude": "\u201374.016042\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Greene_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Greene_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3444,7 +4289,9 @@
                     "TotalArea": "1,807.808",
                     "Latitude": "+43.609960\u00b0",
                     "Longitude": "\u201374.505974\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hamilton_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Hamilton_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3475,7 +4322,9 @@
                     "TotalArea": "1,458.352",
                     "Latitude": "+43.180942\u00b0",
                     "Longitude": "\u201374.969957\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Herkimer_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Herkimer_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3506,7 +4355,9 @@
                     "TotalArea": "1,857.078",
                     "Latitude": "+44.038673\u00b0",
                     "Longitude": "\u201375.944575\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Jefferson_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Jefferson_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3537,7 +4388,42 @@
                     "TotalArea": "96.899",
                     "Latitude": "+40.649812\u00b0",
                     "Longitude": "\u201373.952247\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kings_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Kings_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Lewis",
+                    "County FIPS": "36049",
+                    "QualityofLife": {
+                        "Z-Score": -0.371588903,
+                        "Rank": 9.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.1339684608,
+                        "Rank": 48.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": -0.031217854,
+                        "Rank": 25.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": 0.1673427762,
+                        "Rank": 50.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.020995222,
+                        "Rank": 15.0
+                    },
+                    "Population": "26,944",
+                    "TotalArea": "1,289.891",
+                    "Latitude": "+43.766211\u00b0",
+                    "Longitude": "\u201375.450668\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Lewis_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3568,7 +4454,9 @@
                     "TotalArea": "640.444",
                     "Latitude": "+42.727484\u00b0",
                     "Longitude": "\u201377.770090\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Livingston_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Livingston_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3599,7 +4487,9 @@
                     "TotalArea": "661.542",
                     "Latitude": "+42.940200\u00b0",
                     "Longitude": "\u201375.685925\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Madison_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Madison_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3630,7 +4520,9 @@
                     "TotalArea": "1,365.606",
                     "Latitude": "+43.159963\u00b0",
                     "Longitude": "\u201377.630324\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monroe_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Monroe_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3661,7 +4553,9 @@
                     "TotalArea": "410.324",
                     "Latitude": "+42.917805\u00b0",
                     "Longitude": "\u201374.394503\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Montgomery_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Montgomery_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3692,7 +4586,9 @@
                     "TotalArea": "453.083",
                     "Latitude": "+40.715949\u00b0",
                     "Longitude": "\u201373.602538\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Nassau_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Nassau_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3723,7 +4619,9 @@
                     "TotalArea": "33.770",
                     "Latitude": "+40.769656\u00b0",
                     "Longitude": "\u201373.973533\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_York_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/New_York_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3754,7 +4652,9 @@
                     "TotalArea": "1,139.833",
                     "Latitude": "+43.146089\u00b0",
                     "Longitude": "\u201378.848097\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Niagara_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Niagara_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3785,7 +4685,9 @@
                     "TotalArea": "1,257.114",
                     "Latitude": "+43.188633\u00b0",
                     "Longitude": "\u201375.391295\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Oneida_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Oneida_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3816,7 +4718,9 @@
                     "TotalArea": "805.693",
                     "Latitude": "+43.048433\u00b0",
                     "Longitude": "\u201376.179117\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Onondaga_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Onondaga_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3847,7 +4751,9 @@
                     "TotalArea": "662.429",
                     "Latitude": "+42.875038\u00b0",
                     "Longitude": "\u201377.262252\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ontario_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ontario_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3878,7 +4784,9 @@
                     "TotalArea": "838.546",
                     "Latitude": "+41.406117\u00b0",
                     "Longitude": "\u201374.279480\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orange_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orange_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3909,7 +4817,9 @@
                     "TotalArea": "817.469",
                     "Latitude": "+43.257496\u00b0",
                     "Longitude": "\u201378.238574\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orleans_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Orleans_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3940,7 +4850,9 @@
                     "TotalArea": "1,312.179",
                     "Latitude": "+43.415555\u00b0",
                     "Longitude": "\u201376.246970\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Oswego_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Oswego_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -3971,7 +4883,9 @@
                     "TotalArea": "1,015.103",
                     "Latitude": "+42.617473\u00b0",
                     "Longitude": "\u201375.037498\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Otsego_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Otsego_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4002,7 +4916,9 @@
                     "TotalArea": "246.251",
                     "Latitude": "+41.416859\u00b0",
                     "Longitude": "\u201373.731006\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Putnam_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Putnam_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4033,7 +4949,9 @@
                     "TotalArea": "178.279",
                     "Latitude": "+40.714295\u00b0",
                     "Longitude": "\u201373.820376\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Queens_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Queens_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4064,7 +4982,9 @@
                     "TotalArea": "665.390",
                     "Latitude": "+42.698952\u00b0",
                     "Longitude": "\u201373.595047\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Rensselaer_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Rensselaer_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4095,7 +5015,9 @@
                     "TotalArea": "102.501",
                     "Latitude": "+40.582197\u00b0",
                     "Longitude": "\u201374.140923\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Richmond_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Richmond_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4126,7 +5048,9 @@
                     "TotalArea": "199.341",
                     "Latitude": "+41.124995\u00b0",
                     "Longitude": "\u201374.014963\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Rockland_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Rockland_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4157,7 +5081,9 @@
                     "TotalArea": "843.713",
                     "Latitude": "+43.038798\u00b0",
                     "Longitude": "\u201373.806821\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Saratoga_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Saratoga_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4188,7 +5114,9 @@
                     "TotalArea": "209.622",
                     "Latitude": "+42.807926\u00b0",
                     "Longitude": "\u201373.972317\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schenectady_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schenectady_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4219,7 +5147,9 @@
                     "TotalArea": "626.357",
                     "Latitude": "+42.613421\u00b0",
                     "Longitude": "\u201374.439124\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schoharie_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schoharie_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4250,7 +5180,9 @@
                     "TotalArea": "342.216",
                     "Latitude": "+42.382961\u00b0",
                     "Longitude": "\u201376.872155\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schuyler_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Schuyler_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4281,7 +5213,9 @@
                     "TotalArea": "390.514",
                     "Latitude": "+42.801104\u00b0",
                     "Longitude": "\u201376.827879\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Seneca_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Seneca_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4312,7 +5246,9 @@
                     "TotalArea": "1,404.096",
                     "Latitude": "+42.283617\u00b0",
                     "Longitude": "\u201377.363147\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Steuben_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Steuben_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4343,7 +5279,9 @@
                     "TotalArea": "2,373.067",
                     "Latitude": "+40.833314\u00b0",
                     "Longitude": "\u201373.026232\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Suffolk_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Suffolk_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4374,7 +5312,42 @@
                     "TotalArea": "996.855",
                     "Latitude": "+41.704829\u00b0",
                     "Longitude": "\u201374.746836\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sullivan_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Sullivan_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Tioga",
+                    "County FIPS": "36107",
+                    "QualityofLife": {
+                        "Z-Score": -0.059005228,
+                        "Rank": 25.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.025742761,
+                        "Rank": 26.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.016169214,
+                        "Rank": 39.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.054580052,
+                        "Rank": 25.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.039690612,
+                        "Rank": 10.0
+                    },
+                    "Population": "51,784",
+                    "TotalArea": "522.906",
+                    "Latitude": "+42.147003\u00b0",
+                    "Longitude": "\u201376.328043\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tioga_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4405,7 +5378,9 @@
                     "TotalArea": "491.625",
                     "Latitude": "+42.464150\u00b0",
                     "Longitude": "\u201376.481140\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tompkins_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Tompkins_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4436,7 +5411,9 @@
                     "TotalArea": "1,160.760",
                     "Latitude": "+41.856325\u00b0",
                     "Longitude": "\u201374.146620\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ulster_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Ulster_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4467,7 +5444,9 @@
                     "TotalArea": "931.661",
                     "Latitude": "+43.475480\u00b0",
                     "Longitude": "\u201373.752666\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Warren_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Warren_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4498,7 +5477,42 @@
                     "TotalArea": "845.840",
                     "Latitude": "+43.274398\u00b0",
                     "Longitude": "\u201373.445447\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Washington_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Washington_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Wayne",
+                    "County FIPS": "36117",
+                    "QualityofLife": {
+                        "Z-Score": 0.2534256471,
+                        "Rank": 48.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": 0.162651807,
+                        "Rank": 52.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1745954096,
+                        "Rank": 59.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.1527673,
+                        "Rank": 15.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": -0.012558239,
+                        "Rank": 19.0
+                    },
+                    "Population": "93,765",
+                    "TotalArea": "1,384.142",
+                    "Latitude": "+43.146538\u00b0",
+                    "Longitude": "\u201377.056462\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Wayne_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4529,7 +5543,9 @@
                     "TotalArea": "500.084",
                     "Latitude": "+41.057167\u00b0",
                     "Longitude": "\u201373.794013\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Westchester_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Westchester_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             },
             {
@@ -4560,7 +5576,42 @@
                     "TotalArea": "596.440",
                     "Latitude": "+42.701123\u00b0",
                     "Longitude": "\u201378.198014\u00b0",
-                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Wyoming_County,_New_York"
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Wyoming_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
+                }
+            },
+            {
+                "County": {
+                    "CountyName": "Yates",
+                    "County FIPS": "36123",
+                    "QualityofLife": {
+                        "Z-Score": -0.716552645,
+                        "Rank": 2.0
+                    },
+                    "HealthBehaviours": {
+                        "Z-Score": -0.071220181,
+                        "Rank": 19.0
+                    },
+                    "ClinicalCare": {
+                        "Z-Score": 0.1445535752,
+                        "Rank": 57.0
+                    },
+                    "EconomicFactors": {
+                        "Z-Score": -0.062488276,
+                        "Rank": 23.0
+                    },
+                    "PhysicalEnvironment": {
+                        "Z-Score": 0.0031003358,
+                        "Rank": 31.0
+                    },
+                    "Population": "24,621",
+                    "TotalArea": "375.761",
+                    "Latitude": "+42.631984\u00b0",
+                    "Longitude": "\u201377.073127\u00b0",
+                    "CountyWikiLink": "https://en.wikipedia.org/wiki/Yates_County,_New_York",
+                    "StateLatitude": 42.165726,
+                    "StateLongitude": -74.948051
                 }
             }
         ]

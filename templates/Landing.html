@@ -5,206 +5,140 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
   <link rel= "stylesheet" type= "text/css" href= "static/styles.css">
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script> -->
-  <!-- <script type="text/javascript" src="static/index.js"></script> -->
-  <!-- <script type="text/javascript" src="static/countyselection.js"></script>
-  <script type="text/javascript" src="static/styles.css"></script> -->
-  <style>
-        .jumbotron { 
-            background-color: grey;
-            color: #ffffff;
-            padding: 100px 25px;
-
-        }
-
-        .bg-grey {
-            background-color: #f6f6f6;
-        }
-
-        .container-fluid {
-         padding: 60px 50px;
-        }
-
-        .thumbnail {
-            padding: 0 0 15px 0;
-            border: none;
-            border-radius: 0;
-        }
-
-        .thumbnail img {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 10px;
-        }
-
-        .navbar {
-            margin-bottom: 0;
-            background-color: #f4511e;
-            z-index: 9999;
-            border: 0;
-            font-size: 12px !important;
-            line-height: 1.42857143 !important;
-            letter-spacing: 4px;
-            border-radius: 0;
-        }
-
-        .navbar li a, .navbar .navbar-brand {
-            color: #fff !important;
-        }
-
-        .navbar-nav li a:hover, .navbar-nav li.active a {
-            color: #f4511e !important;
-            background-color: #fff !important;
-        }
-
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-            color: #fff !important;
-        }
-
-        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-        .row.content {height: 450px}
-        
-        /* Set gray background color and 100% height */
-        .sidenav {
-        padding-top: 20px;
-        background-color: #f1f1f1;
-        height: 100%;
-        }
-
-   </style>
+ 
+  
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-        <!-- Navigation -->
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#myPage">Select-a-healthy-county!</a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#county">State and County Selector</a></li>
-                      <li><a href="#attribute">Attribute Selector</a></li>
-                      <li><a href="#portfolio">Portfolio</a></li>
-                    </ul>
-                  </div>
-                </div>
-        </nav>
-
+<body>
+        
 
 
         <!-- Use Case 1 -->
 
-        <div class="jumbotron text-center"> <div id="county" class="container">
-
-                <div>
-                        <h3>
-                        <marquee>Some text + .svg can scroll here</marquee>
-                            <img id="leafImage">
-                        </h3>
-                    </div>
-
-            <div class="row content">
-
-                <div class="col-sm-4 text-center">
-
-                        <select class="form-control" id="stateselect" onchange="optionChanged(this.value)">
-                                <option value="empty">Select State</option>
-                        </select>
-                
-                <hr>
-
-                        <select class="form-control" id="countyselect" onchange="optionChanged(this.value)">
-                                <option value="empty">Select County</option>
-                        </select>
-
-
-                </div>
-                <div class="col-sm-1">
-
-                </div>
-                <div class="col-sm-7 sidenav">
-
-                </div>
-
-            </div>
-        </div>
-
-        <hr>
+        
 
         <!-- Plot Area -->
 
-        <div class="container-fluid">
-              
-        </div>
 
-        <!-- Use Case 2 -->
+        <!-- RR -->
+        <!-- Use Case 3 -->
 
-        <div class="jumbotron text-center"> <div id="attribute" class="container-fluid">
-                <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                
-                                <div class="col-md-6">
-                                    <div class="panel panel-primary dropdown">
-                                        <div class="panel-heading">
-                                                <h5>Preference 1</h5>
-                                        </div>
+        <div class="container">
+           <form action = "/attributeSelection" method = "POST" id="userSelections" autocomplete="on">
+                <label for="ex2">State</label>
+                 <select id="StateShortName" name="StateShortName" aria-placeholder="Select Sample" form="userSelections"   onchange="optionChanged(this.value)">
+                 </select>
+
+                <label for="ex2">Selection 1</label>
+                 <select id="preference1" name="preference1" aria-placeholder="Select Sample" form="userSelections"   onchange="optionChanged(this.value)">
+                 </select>
                 
-                                        <div class="panel-body">
-                                                <select id="selDataset" aria-placeholder="Select Sample" onchange="optionChanged(this.value)">
-                                                </select>
-                                        </div>
-                                    </div>
-                                </div>
+                <label for="ex2">Selection 2</label>
+                <select id="preference2" name="preference2" aria-placeholder="Select Sample"  form="userSelections" onchange="optionChanged(this.value)">
+                </select>
+
+                <label for="ex2">Selection 3</label>
+                <select id="preference3" name="preference3" aria-placeholder="Select Sample"  form="userSelections" onchange="optionChanged(this.value)">
+                </select>
+
+                <label for="ex2">Selection 4</label>
+                <select id="preference4" name="preference4" aria-placeholder="Select Sample"  form="userSelections" onchange="optionChanged(this.value)">
+                </select>
+                
+                <input type = "submit" value = "submit" />
+            
+            
+
+            </form>
         
-                               
+            
+            <script language="javascript" type="text/javascript">
+
+                //If parent option is changed
+                $("#preference1").change(function() {
+                    var parent = $(this).val(); //get option value from parent
+                        list("#preference1", '#preference2', parent);
+                    });
+                
+                    $("#preference2").change(function () {
+                        var parent = $(this).val(); //get option value from parent
+                        list("#preference2", '#child_selection2', parent);
+                    });
+                
+                
+                    $("#child_selection2").change(function () {
+                        var parent = $(this).val(); //get option value from parent
+                        list("#child_selection2", '#child_selection4', parent);
+                    });
+                
+                    function remove(array, element) {
+                        return array.filter(function (x) {
+                            return x.value != element
+                        });
+                    }
+                
+                //function to populate child select box
+                function list(parentOption, dependentChild, removeItem)
+                {
+                    var options = $(parentOption +' option');
+                    var values = $.map(options, function (option) {
+                        return { display: option.innerText, value: option.label };
+                });
+                
+                 
+                
+                    $(dependentChild).html(""); //reset child options
+                    var childArray = remove(values, removeItem);
+                    $(childArray).each(function (i) { //populate child options
+                        $(dependentChild).append("<option value=\"" + childArray[i].value + "\">" + childArray[i].display + "</option>");
+                    });
+                
+                }
+                
+            </script>
         
-                            </div>
-                        </div>
-                </div>
+        <div>
+        <select id="selDataset" aria-placeholder="Select Sample" onchange="optionChanged(this.value)">
+        </select>
+        </div -->
+        <div class="dropdown">
+        
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+            <span class="caret"></span>
+        </button>
+        
+        </div>
+        
+        <div class="jumbotronUc2">
+            <div id="map" class="col-xs-10">
+      
         </div>
 
-        <hr>
-
-        <div class="container-fluid text-center"> <div id="portfolio" class="container-fluid">
-                <h2>Our Visualizations!</h2>
-                <h4>What we have created</h4>
-                <div class="row text-center">
-                  <div class="col-sm-4">
-                    <div class="thumbnail">
-                      <img src="Plot1.jpg" alt="Plot1">
-                      <p><strong>Plot 1</strong></p>
-                      <p>Quick Description</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail">
-                      <img src="Plot2.jpg" alt="Plot2">
-                      <p><strong>Plot 2</strong></p>
-                      <p>Quick Description</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="thumbnail">
-                            <img src="Plot3.jpg" alt="Plot3">
-                            <p><strong>Plot 3</strong></p>
-                            <p>Quick Description</p>
-                    </div>
-                  </div>
-        </div>
-
+ </div>
+</div>
+    <!-- RR --> 
+    <!-- Display of 3 Recommended Counties  -->        
+     <br>
+     <br>
+     <div class="row">
+            <div id ="recommendedCounties" class="col-md-12">
+                    {{ result|safe }}
+            </div>    
+     </div>
+    
+        
 </body>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -212,5 +146,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <!-- <script type="text/javascript" src="static/countyselection.js"></script> -->
 <script src="{{ url_for('static', filename='countyselection.js') }}"></script>
+  <!-- API key -->
+  <script type="text/javascript" src="static/config.js"></script>
+  <!-- Our JS -->
+  <script type="text/javascript" src="static/logic.js"></script>
 
+  <!--<script type="text/javascript" src="static/index.js?n=1"></script>-->
+  <!--<script type="text/javascript" src="static/index_new.js?n=1"></script> -->
+  <!--script type="text/javascript" src="static/countyselection.js"></script -->
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
+   <script src="{{ url_for('static', filename='logic.js') }}"></script>
 </html>
+
+
+
+
+
