@@ -15,4 +15,3 @@ six==1.11.0
 SQLAlchemy==1.2.5
 Werkzeug==0.14.1
 web.py==0.40.dev1
-WTForms ==2.2.1

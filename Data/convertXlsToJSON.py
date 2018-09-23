@@ -156,7 +156,7 @@ def JSON_from_excel():
                                 "Rank" : sh.cell(row_index, 12 ).value,
                             }
                             
-                            # Make sure we have the county in dictionary
+                            # Make sure we have the county exists in dictionary
                             if (StateShortName + CountyName in scrapedCounties): 
                                 c = scrapedCounties[StateShortName + CountyName]
                                 # Perform lookup from the scraped data for the geo 
