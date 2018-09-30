@@ -2,6 +2,7 @@ import pymongo
 from flask import(Flask, render_template,jsonify)
 from Data.CountySelection import CountySelection
 
+# from Data.convertXlsToJSON import CreateMongoDataBase
 #------------------------------------------------------------------------------------#
 # Flask Setup #
 #------------------------------------------------------------------------------------#
@@ -19,14 +20,11 @@ db = client.healthi_db
 #------------------------------------------------------------------------------------#
 # MLab MongoDB connection #
 #------------------------------------------------------------------------------------#
-# conn = 'mongodb://healthi_admin:healthisrs9=@ds255332.mlab.com:55332/healthi_db'
+## Connection for remote host
+# conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
 # conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
 # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-
-# #Database connection
 # db = client.get_default_database()
-# db = client.get_database('healthi_db')
-# client = pymongo.MongoClient(conn)
 
 
 # Home Page
@@ -65,9 +63,8 @@ def attributes():
 def rankszscores(state):
     sample_list = []
     County_dict = {}
-    for item in db.CountyRanksZscores.find():
-        if item['State'].lower() == state.lower():
-            County_dict[state.upper()] = item['CountyDetails']
+    for item in db.CountyRanksZscores.find({'State': state}):
+        County_dict[state.upper()] = item['CountyDetails']
     sample_list.append(County_dict)    
     return jsonify(sample_list)    
 
@@ -87,13 +84,12 @@ def state():
 @app.route("/countynames/<state>")
 def county(state):
     sample_list = []
-    for item in db.State.find():
+    for item in db.State.find({'StateName': state}):
         county_list=[]
         County_dict={}
-        if item['StateName'].lower() == state.lower():
-            State_Counties = item['Counties']
-            for County in State_Counties:
-                county_list.append(County['County']['CountyName'])
+        State_Counties = item['Counties']
+        for County in State_Counties:
+            county_list.append(County['County']['CountyName'])
             County_dict['CountyNames'] = county_list          
             sample_list.append(County_dict)
     return jsonify(sample_list)   
@@ -102,49 +98,48 @@ def county(state):
 @app.route("/countyzscores/<state>")
 def zscore(state):
     sample_list = []
-    for item in db.State.find():
-        if item['StateName'].lower() == state.lower():
-            State_Counties = item['Counties']
-            for Zscores in State_Counties:              
-                sample_list.append({Zscores['County']['CountyName']:{
-                    "QualityofLife":Zscores['County']['QualityofLife'],
-                    "HealthBehaviours":Zscores['County']['HealthBehaviours'],
-                    "ClinicalCare" : Zscores['County']['ClinicalCare'], 
-                    "EconomicFactors" : Zscores['County']['EconomicFactors'],
-                    "PhysicalEnvironment":Zscores['County']['PhysicalEnvironment']
-                }})
+    for item in db.State.find({'StateName': state}):
+        State_Counties = item['Counties']
+        for Zscores in State_Counties:              
+            sample_list.append({Zscores['County']['CountyName']:{
+            "QualityofLife":Zscores['County']['QualityofLife'],
+            "HealthBehaviours":Zscores['County']['HealthBehaviours'],
+            "ClinicalCare" : Zscores['County']['ClinicalCare'], 
+            "EconomicFactors" : Zscores['County']['EconomicFactors'],
+            "PhysicalEnvironment":Zscores['County']['PhysicalEnvironment']
+          }})
     return jsonify(sample_list)            
 
 # Route to display the all the geographical & demographics information about the county in the given state  
 @app.route("/countygeodetails/<state>")
 def geodemo(state):
     sample_list=[]
-    for item in db.State.find():
-        if item['StateName'].lower() == state.lower():
-            State_Counties = item['Counties']
-            print(State_Counties)
-            for geodemo in State_Counties:
-                sample_list.append({geodemo['County']['CountyName']:{  
-                'Latitude' : geodemo['County']['Latitude'],
-                'Longitude' : geodemo['County']['Longitude'],
-                'TotalArea' : geodemo['County']['TotalArea'],
-                'Population' : geodemo['County']['Population'],
-                'geodemo.CountyWikiLink' : geodemo['County']['CountyWikiLink']
-                }})
+    for item in db.State.find({'StateName': state}):
+        State_Counties = item['Counties']
+        # print(State_Counties)
+        for geodemo in State_Counties:
+            sample_list.append({geodemo['County']['CountyName']:{  
+            'Latitude' : geodemo['County']['Latitude'],
+            'Longitude' : geodemo['County']['Longitude'],
+            'TotalArea' : geodemo['County']['TotalArea'],
+            'Population' : geodemo['County']['Population'],
+            'geodemo.CountyWikiLink' : geodemo['County']['CountyWikiLink']
+            }})
     return jsonify(sample_list)            
 
 # Route to display the all the information about the given state    
 @app.route("/countyalldetails/<state>")
 def details(state):
     sample_list = []
-    for item in db.State.find():
+    print(state)
+    for item in db.State.find({'StateName': state}):
         Statedetaildict = {}
-        if item['StateName'].lower() == state.lower():
-            Statedetaildict['State'] = item['StateName']
-            Statedetaildict['Year'] = item['Year']
-            Statedetaildict['FIPS'] = item['FIPS']
-            Statedetaildict['Counties'] = item['Counties']
-            sample_list.append(Statedetaildict)
+        Statedetaildict['State'] = item['StateName']
+        Statedetaildict['Year'] = item['Year']
+        Statedetaildict['FIPS'] = item['FIPS']
+        Statedetaildict['Counties'] = item['Counties']
+        sample_list.append(Statedetaildict)
+
     return jsonify(sample_list)        
 
 # RM Added route for UC3
@@ -159,14 +154,14 @@ def result(userSelection):
             # populate the selection dictionary
             if (preferences[0] not in selection and preferences[1] !='Select Attribute'):
                selection[preferences[0]] = preferences[1]
-            print(preferences[1])
-    print(selection)
+            # print(preferences[1])
+    # print(selection)
     #   Get the Top 3 counties per user selection
     userPref = CountySelection(selection)
       
     userPref = userPref.Selection()
-    print(userPref.keys())
-    print(userPref.to_json())
+    # print(userPref.keys())
+    # print(userPref.to_json())
     top3Counties = []
     RecommendedCounty ={}
     for  index , row in userPref.iterrows():

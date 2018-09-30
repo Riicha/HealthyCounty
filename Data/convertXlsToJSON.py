@@ -15,13 +15,13 @@ import re
 
 
 #--------------------------------------------------------------------------------#
-def JSON_from_excel():
+def CreateMongoDataBase():
         scrapedCounties = {}  
         ## https://inkplant.com/code/state-latitudes-longitudes
         statesOfUSA = {
         'AK': { "StateName": 'Alaska' , "Latitude" : 61.370716 , "Longitude": -152.404419  },
         'AL': { "StateName": 'Alabama' , "Latitude" : 32.806671 , "Longitude": -86.791130  } ,
-        'AR': { "StateName": 'Arkansas' , "Latitude" : 34.969704 , "Longitude": 92.373123  },
+        'AR': { "StateName": 'Arkansas' , "Latitude" : 34.969704 , "Longitude": -92.373123  },
         'AZ': { "StateName": 'Arizona' , "Latitude" : 33.729759 , "Longitude": -111.431221 } ,
         'CA': { "StateName": 'California' , "Latitude" : 36.116203 , "Longitude": -119.681564 } ,
         'CO': { "StateName": 'Colorado' , "Latitude" : 39.059811 , "Longitude": -105.311104 },
@@ -209,8 +209,9 @@ def JSON_from_excel():
         client = pymongo.MongoClient(conn)
         db=client.healthi_db
         
-        # #Connection for remote host
-        # conn = 'mongodb://<add user Pwd here>@ds255332.mlab.com:55332/healthi_db'
+        ## Connection for remote host
+        # conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
+        # conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
         # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
         # db = client.get_default_database()
 
@@ -229,17 +230,12 @@ def JSON_from_excel():
         db.State.drop()
         state = db.State
         #insert into State collection
-        result = state.insert_many(StateList)
-        print("Multiple States {0}".format(result.inserted_ids))
+        state.insert_many(StateList)
+        # result = state.insert_many(StateList)
+        # print("Multiple States {0}".format(result.inserted_ids))
         
-JSON_from_excel()
+CreateMongoDataBase()
 
-#Siva : 9/13/2018. Updated to create one database and use the mlab cloud mongodb.
-#Pragati : 9/14/2018. Updated and cleaned the code (Note: Verified by re-running the code
-#          locally. 
-#          Note: Did all this at this state to avoid any last minutes bug & error.
-## Updated & Tested Riicha : 9/15/2018 Web Scaped & Added # 1. Lat & Long of counties.2. Link to Wiki 
-# 3. population & 4. Area etc
 
         
 
