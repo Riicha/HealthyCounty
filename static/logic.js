@@ -29,55 +29,56 @@ function displayCounties() {
     if (response !=undefined && response.length > 0 ) {
     console.log(response);
     
-    var html = '<div class="col-md-12">';
-    html += '<div class="col-md-1">StateName</div>';
-    html += '<div class="col-md-1">CountyName</div>';
-    html += '<div class="col-md-1">AggregatedValue</div>';
-    html += '<div class="col-md-1">Population</div>';
-    html += '<div class="col-md-1">TotalArea</div>';
-    html += '<div class="col-md-1">Latitude</div>';
-    html += '<div class="col-md-1">Longitude</div>';
-    html += '<div class="col-md-4">CountyWikiLink</div>';
-    html += '</div>';
+    var html = '<table style="width:100%" id="uc3" class="table table-hover" >';
+    html += '<tr>';
+    
+    html += '<td style="color: orange">StateName</td>';
+    html += '<td style="color: orange">CountyName</td>';
+    html += '<td style="color: orange">AggregatedValue</td>';
+    html += '<td style="color: orange">Population</td>';
+    html += '<td style="color: orange">TotalArea</td>';
+    html += '<td style="color: orange">Latitude</td>';
+    html += '<td style="color: orange">Longitude</td>';
+    html += '<td style="color: orange">CountyWikiLink</td>';
+    html += '</tr>';
+    
+    html += '<tr>';    
+    html += '<td>' + response[0].StateName + '</td>';
+    html += '<td>' + response[0].CountyName + '</td>';
+    html += '<td>' + response[0].AggregatedValue.toFixed(5) + '</td>' ;
+    html += '<td>' + response[0].Population + '</td>';
+    html += '<td>' + response[0].TotalArea + '</td>';
+    html += '<td>' + response[0].Latitude + '</td>';
+    html += '<td>' + response[0].Longitude + '</td>';
+    html += '<td> <div class="countyData"> <a { color: inherit; }  href="' + response[0].CountyWikiLink + '"  target="_blank">' + response[0].CountyName +'</div>' +' </td>';
+    html += '</tr>';
 
-    html += '<div class="col-md-12">';
-    html += '<div class="col-md-1">' + response[0].StateName + '</div>';
-    html += '<div class="col-md-1">' + response[0].CountyName + '</div>';
-    html += '<div class="col-md-1">' + response[0].AggregatedValue + '</div>' ;
-    html += '<div class="col-md-1">' + response[0].Population + '</div>';
-    html += '<div class="col-md-1">' + response[0].TotalArea + '</div>';
-    html += '<div class="col-md-1">' + response[0].Latitude + '</div>';
-    html += '<div class="col-md-1">' + response[0].Longitude + '</div>';
-    html += '<div class="col-md-1">' + response[0].CountyWikiLink + '</div>';
-    html += '</div>';
+    html += '<tr>';    
+    html += '<td>' + response[1].StateName + '</td>';
+    html += '<td>' + response[1].CountyName + '</td>';
+    html += '<td>' + response[1].AggregatedValue.toFixed(5) + '</td>' ;
+    html += '<td>' + response[1].Population + '</td>';
+    html += '<td>' + response[1].TotalArea + '</td>';
+    html += '<td>' + response[1].Latitude + '</td>';
+    html += '<td>' + response[1].Longitude + '</td>';
+    html += '<td class="linkFill"> <div class="countyData"> <a { color: inherit; }  href="' + response[1].CountyWikiLink + '"  target="_blank">' + response[1].CountyName +'</div>' +' </td>';
+    html += '</tr>';
 
-    html += '<div class="col-md-12">';
-    html += '<div class="col-md-1">' + response[1].StateName + '</div>';
-    html += '<div class="col-md-1">' + response[1].CountyName + '</div>';
-    html += '<div class="col-md-1">' + response[1].AggregatedValue + '</div>' ;
-    html += '<div class="col-md-1">' + response[1].Population + '</div>';
-    html += '<div class="col-md-1">' + response[1].TotalArea + '</div>';
-    html += '<div class="col-md-1">' + response[1].Latitude + '</div>';
-    html += '<div class="col-md-1">' + response[1].Longitude + '</div>';
-    html += '<div class="col-md-1">' + response[1].CountyWikiLink + '</div>';
-    html += '</div>';
+    html += '<tr>';    
+    html += '<td>' + response[2].StateName + '</td>';
+    html += '<td>' + response[2].CountyName + '</td>';
+    html += '<td>' + response[2].AggregatedValue.toFixed(5) + '</td>' ;
+    html += '<td>' + response[2].Population + '</td>';
+    html += '<td>' + response[2].TotalArea + '</td>';
+    html += '<td>' + response[2].Latitude + '</td>';
+    html += '<td>' + response[2].Longitude + '</td>';
+    html += '<td> <div class="countyData"> <a { color: inherit; } href="' + response[2].CountyWikiLink + '"  target="_blank">' + response[2].CountyName +'</div>' +' </td>';
+    html += '</tr>';
 
-    html += '<div class="col-md-12">';
-    html += '<div class="col-md-1">' + response[2].StateName + '</div>';
-    html += '<div class="col-md-1">' + response[2].CountyName + '</div>';
-    html += '<div class="col-md-1">' + response[2].AggregatedValue + '</div>' ;
-    html += '<div class="col-md-1">' + response[2].Population + '</div>';
-    html += '<div class="col-md-1">' + response[2].TotalArea + '</div>';
-    html += '<div class="col-md-1">' + response[2].Latitude + '</div>';
-    html += '<div class="col-md-1">' + response[2].Longitude + '</div>';
-    html += '<div class="col-md-1">' + response[2].CountyWikiLink + '</div>';
-    html += '</div>';
+    html += '</table>';
 
-    console.log(html);
-
+    $("#uc3Table").html("");
     $("#uc3Table").append(html);
-    var factsUrl = response[0].CountyWikiLink + ' #bodyContent';
-    $("#countyFacts").load(factsUrl);
     /*['AggregatedValue', 'CountyName', 'CountyWikiLink', 'Latitude',
     'Longitude', 'Population', 'StateLatitude', 'StateLongitude',
     'StateName', 'StateShortName', 'TotalArea']*/
@@ -152,47 +153,5 @@ function displayCounties() {
 }
 
 
-function displayTable(top3Counties) {
-   
-    var html = '<div class="col-md-12">';
-    html += '<div class="col-md-1">StateName</div>';
-    html += '<div class="col-md-1">CountyName</div>';
-    html += '<div class="col-md-1">AggregatedValue</div>';
-    html += '<div class="col-md-1">Population</div>';
-    html += '<div class="col-md-1">TotalArea</div>';
-    html += '<div class="col-md-1">Latitude</div>';
-    html += '<div class="col-md-1">Longitude</div>';
-    html += '<div class="col-md-4">CountyWikiLink</div>';
 
-    /*['AggregatedValue', 'CountyName', 'CountyWikiLink', 'Latitude',
-    'Longitude', 'Population', 'StateLatitude', 'StateLongitude',
-    'StateName', 'StateShortName', 'TotalArea']*/
-
-    $.each(top3Counties, function(c,item) {
-        console.log(c);
-        
-        console.log(item[c]);
-        console.log(item[c].StateName);
-        //alert(c.StateName);
-        //alert(item[c][0]);
-        //alert(item[0][0]);
-        //console.log(item[c].StateName);
-        html += '<div class="col-md-1">' + c.StateName + '</div>';
-        html += '<div class="col-md-1">' + c.CountyName + '</div>';
-        html += '<div class="col-md-1">' + c['AggregatedValue'] + '</div>' ;
-        html += '<div class="col-md-1">' + c['Population'] + '</div>';
-        html += '<div class="col-md-1">' + c['TotalArea'] + '</div>';
-        html += '<div class="col-md-1">' + c['Latitude'] + '</div>';
-        html += '<div class="col-md-1">' + c['Longitude'] + '</div>';
-        html += '<div class="col-md-1">' + c['CountyWikiLink'] + '</div>';
-      });
-
-    
-    html += '</div>';
-
-    alert(html);
-    $("#uc3Table").append(html);
-
-    
-  }
 

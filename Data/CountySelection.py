@@ -14,7 +14,6 @@ class CountySelection:
     
     
     def Selection(self):
-        
         #Connection for local host
         conn = 'mongodb://localhost:27017'
         client = MongoClient(conn)

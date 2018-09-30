@@ -1,37 +1,58 @@
-function add_dropdown(){ 
-    
+function addUserPreferenceSelection(){
+ //If parent option is changed
 
-    Plotly.d3.json("/names",function(error,response){
-        if(error) console.warn(error);
+    $("#Preference1").change(function() {
+        var parent = $(this).val(); //get option value from parent
+        list("#Preference1", '#Preference2', parent);
+        list('#Preference2', '#Preference3', parent);
+        list('#Preference3', '#Preference4', parent);
+    });
 
-        var dropdown_select = Plotly.d3.select("#selDataset");
 
-       for(var i=0;i<response.length;i++){
-           dropdown_select.append("option").attr("value",response[i]).text(response[i]);
-       }
-       optionChanged(response[0]);
-    })
 
-    
+    $("#Preference2").change(function () {
+        var parent = $(this).val(); //get option value from parent
+        list("#Preference2", '#Preference3', parent);
+        list("#Preference3", '#Preference4', parent);
+    });
+
+
+
+    $("#Preference3").change(function () {
+        var parent = $(this).val(); //get option value from parent
+        list("#Preference3", '#Preference4', parent);
+    });
+
 }
 
-function optionChanged(selectedValue){
-  
-    Plotly.d3.json("/metadata/"+selectedValue,function(error,response){
-        if(error) console.warn(error);
+function remove(array, element) {
+    return array.filter(function (x) {
+        return x.value != element
+    });
 
-        var metadata_Sample= Plotly.d3.select(".metadata");
+}
 
-        // Remove Old metadata 
-        metadata_Sample.selectAll("p").remove();
 
-        for(var key in response){
-            if(response.hasOwnProperty(key)){
-                metadata_Sample.append("p").text(key + ":   " + response[key]);
-            }
-        }
-    })
 
-};
+//function to populate child select box
+function list(parentOption, dependentChild, removeItem)
+{
+    var options = $(parentOption +' option');
+    var values = $.map(options, function (option) {
+    return { display: option.innerText, value: option.value };
+    });
 
-add_dropdown()
+
+
+    $(dependentChild).empty(); //reset child options
+    var childArray = remove(values, removeItem);
+    $(childArray).each(function (i) { //populate child options
+    $(dependentChild).append("<option value=\"" + childArray[i].value + "\">" + childArray[i].display + "</option>");
+
+    });
+
+
+
+}
+
+addUserPreferenceSelection()

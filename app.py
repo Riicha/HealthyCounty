@@ -5,26 +5,28 @@ from Data.CountySelection import CountySelection
 #------------------------------------------------------------------------------------#
 # Flask Setup #
 #------------------------------------------------------------------------------------#
-app = Flask(__name__)
+## app = Flask(__name__)  ## For Local 
+
+app = Flask(__name__, template_folder='templates') # For Heroku
 
 #------------------------------------------------------------------------------------#
 # Local MongoDB connection #
 #------------------------------------------------------------------------------------#
-# conn = "mongodb://localhost:27017"
-# client = pymongo.MongoClient(conn)
-
-# # create / Use database
-# # db = client.healthi_db
-
+conn = "mongodb://localhost:27017"
+client = pymongo.MongoClient(conn)
+# create / Use database
+db = client.healthi_db
 #------------------------------------------------------------------------------------#
 # MLab MongoDB connection #
 #------------------------------------------------------------------------------------#
-conn = 'mongodb://healthi_admin:healthisrs9=@ds255332.mlab.com:55332/healthi_db'
-client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+# conn = 'mongodb://healthi_admin:healthisrs9=@ds255332.mlab.com:55332/healthi_db'
+# conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
+# client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
 
 # #Database connection
-db = client.get_default_database()
+# db = client.get_default_database()
 # db = client.get_database('healthi_db')
+# client = pymongo.MongoClient(conn)
 
 
 # Home Page
@@ -155,7 +157,7 @@ def result(userSelection):
     for select in selections:
             preferences = select.split('_')
             # populate the selection dictionary
-            if (preferences[0] not in selection):
+            if (preferences[0] not in selection and preferences[1] !='Select Attribute'):
                selection[preferences[0]] = preferences[1]
             print(preferences[1])
     print(selection)
@@ -182,15 +184,9 @@ def result(userSelection):
         'TotalArea' : row['TotalArea']
         }
         top3Counties.append(RecommendedCounty)
-# ['AggregatedValue', 'CountyName', 'CountyWikiLink', 'Latitude',
-#     'Longitude', 'Population', 'StateLatitude', 'StateLongitude',
-#     'StateName', 'StateShortName', 'TotalArea']
-    #   print(userPref.to_html())
-    #   print(userPref.to_html())
     #   Send back the html back to user
     return jsonify(top3Counties)
-    # return render_template("Landing.html",result = userPref)
-
+  
 
 #------------------------------------------------------------------------------------#
 # Initiate Flask app
@@ -199,13 +195,3 @@ if __name__=="__main__":
     connect_args={'check_same_thread':False}
     app.run(debug=True)
 
-#Pragati : 9/14/2018. Updated to create 4 routes and modified 1 route.
-#          Tested mlab cloud mongodb as well as with local mongodb.  
-#Pragati : 9/15/2018. Updated the code and included two routes: /routes to display
-#          all the available routes and /countygeodetails/<state> to display
-#          geographical & demographical information.
-#Supriya : 9/17/2018. Updated line #79 for Java Script Logic; # 42 for correct display 
-#          of county details route.
-#Pragati : 9/19/2018. Updated the code and included one route: 
-#          /countyrankszscores/<state> to display the ranks and zscores of
-#          the counties.
