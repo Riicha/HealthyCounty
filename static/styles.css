@@ -131,7 +131,7 @@ table#uc3 tr:nth-child(odd) {
 .SubmitButton {
     color: rgb(0, 0, 0);
     background-color:orange;
-    padding: 4px 24px;
+    padding: 2px 24px;
     margin: 4px 2px;
     font-size: 16px;
     
