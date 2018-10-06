@@ -5,16 +5,18 @@ from pymongo import MongoClient
 #--------------------------------------------------------------------------------#
 def mongodbset():
 
-        # Connection for local host
-        conn = 'mongodb://localhost:27017'
-        client = pymongo.MongoClient(conn)
-        db=client.healthi_db
+        #### Connection for local host
+        # conn = 'mongodb://localhost:27017' 
+        # conn = "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
+        # client = pymongo.MongoClient(conn)
+        # db=client.healthi_db
         
-        #Connection for remote host
+        ####Connection for remote host
         # conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-        # conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
-        # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-        # db = client.get_default_database()
+        conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
+        client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+        db = client.get_default_database()
+        print("mongodbset")
         
         Ranks = [
                     {
@@ -1125,7 +1127,8 @@ def mongodbset():
         #drop/create collection CR.
         db.CountyRanksZscores.drop()
         #insert into CountyRanksZscores collection
-        result = db.CountyRanksZscores.insert_many(Ranks)
+        db.CountyRanksZscores.insert_many(Ranks) # 
+        print("end CountyRanksZscores")
         # print("Multiple States {0}".format(result.inserted_ids))        
 
-mongodbset()
+# mongodbset()

@@ -1,2 +1,2 @@
-FLASK_APP=testhealthy/app.py flask run
 
+FLASK_APP=HealthiCountyR/app.py flask run

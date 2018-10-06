@@ -10,10 +10,6 @@ import string
 import re
 # from ScrapedCounty import County
 
-
-
-
-
 #--------------------------------------------------------------------------------#
 def CreateMongoDataBase():
         scrapedCounties = {}  
@@ -73,7 +69,7 @@ def CreateMongoDataBase():
         }
 
 
-        filePath = ""
+        filePath = ".\\HealthiCountyR\\Data\\"
         
         # Scrap the counties and store in the dictionary for lookup
         website_url = requests.get("https://en.wikipedia.org/w/index.php?title=User:Michael_J/County_table&oldid=368803236").text
@@ -114,6 +110,8 @@ def CreateMongoDataBase():
        
         xlsFilesOnly = glob(filePath+"*.xls") # parse all xls file(s) only
         StateList = []
+        print("---------------xlsFilesOnly")
+        print(xlsFilesOnly)
         for xlsfile in xlsFilesOnly:
             yearReported = xlsfile[:4]
             wb = xlrd.open_workbook(xlsfile,ragged_rows = True) 
@@ -192,6 +190,7 @@ def CreateMongoDataBase():
                                     "FIPS":sh.cell(row_index, 0 ).value,
                                     "Counties" : CountyList                      
                                 }
+
                         StateList.append(State)
         
         #Creating a json file to display the jsonified data                
@@ -204,21 +203,23 @@ def CreateMongoDataBase():
             json.dump(scrapedCounties, f, indent = 4)
 
 
-        #Connection for local host
-        conn = 'mongodb://localhost:27017'
-        client = pymongo.MongoClient(conn)
-        db=client.healthi_db
+        ####Connection for local host
+        # conn = "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
+        # client = pymongo.MongoClient(conn)
+        # conn= 'mongodb://localhost:27017/healthi_db' or 
+        # # db=client.healthi_db
+
         
-        ## Connection for remote host
+        #### Connection for remote host
         # conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-        # conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
-        # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-        # db = client.get_default_database()
+        conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
+        client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+        db = client.get_database()
 
         #create list of categories
         Category = ["QualityofLife","EconomicFactors","ClinicalCare","HealthBehaviours","PhysicalEnvironment"]
         #Create a dictionary with the list Category.
-        dropdown = {"cat" : Category }
+        dropdown = {"category" : Category }
 
         #drop/create collection Category
         db.Category.drop()
@@ -228,14 +229,16 @@ def CreateMongoDataBase():
 
         #drop/create collection State.
         db.State.drop()
+        if(len(StateList)==0):
+            print("State list not populated")
         state = db.State
         #insert into State collection
         state.insert_many(StateList)
         # result = state.insert_many(StateList)
         # print("Multiple States {0}".format(result.inserted_ids))
         
-CreateMongoDataBase()
-
+# CreateMongoDataBase()
+ 
 
         
 

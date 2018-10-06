@@ -1,6 +1,8 @@
 import pymongo 
-from flask import(Flask, render_template,jsonify)
-from Data.CountySelection import CountySelection
+from flask import(Flask, render_template, jsonify)
+from .Data.CountySelection import CountySelection
+from .Data.convertXlsToJSON import CreateMongoDataBase
+from .Data.Mongodbset import mongodbset
 
 # from Data.convertXlsToJSON import CreateMongoDataBase
 #------------------------------------------------------------------------------------#
@@ -13,20 +15,28 @@ app = Flask(__name__, template_folder='templates') # For Heroku
 #------------------------------------------------------------------------------------#
 # Local MongoDB connection #
 #------------------------------------------------------------------------------------#
-conn = "mongodb://localhost:27017"
-client = pymongo.MongoClient(conn)
-# create / Use database
-db = client.healthi_db
+# conn = "mongodb://localhost:27017" or "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
+# client = pymongo.MongoClient(conn)
+# # create / Use database
+# db = client.healthi_db
 #------------------------------------------------------------------------------------#
 # MLab MongoDB connection #
 #------------------------------------------------------------------------------------#
-## Connection for remote host
-# conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-# conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
-# client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-# db = client.get_default_database()
+#### Connection for remote host
+####conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
+conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
+client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+db = client.get_default_database()
+#------------------------------------------------------------------------------------#
+#### Initialise and populate the Collection / Database
+#------------------------------------------------------------------------------------#
+def InitializeDataBase():
+    CreateMongoDataBase()
+    print("CreateMongoDataBase")
+    mongodbset()
+    print("mongodbset")
 
-
+#------------------------------------------------------------------------------------#
 # Home Page
 @app.route("/")
 def home():
@@ -76,6 +86,7 @@ def state():
     Statedict={}
     for item in db.State.find():
         states_list.append(item['StateName'])
+        
     Statedict['States'] = states_list 
     sample_list.append(Statedict)
     return jsonify(sample_list)  
@@ -147,38 +158,39 @@ def details(state):
 @app.route('/attributeSelection/<userSelection>')
 def result(userSelection):
     selection = {}
+    
+    ## Splitting the user selections with ':' as the delimiter that was constructed in JS
     selections = userSelection.split(':')
 
     for select in selections:
+            ## Splitting the user selections by '_'
             preferences = select.split('_')
-            # populate the selection dictionary
-            if (preferences[0] not in selection and preferences[1] !='Select Attribute'):
-               selection[preferences[0]] = preferences[1]
-            # print(preferences[1])
-    # print(selection)
+            # populate the selection dictionary only if user selection is not empty
+            if (preferences[0] not in selection and preferences[1] !='empty'):
+                selection[preferences[0]] = preferences[1]
+
     #   Get the Top 3 counties per user selection
-    userPref = CountySelection(selection)
-      
-    userPref = userPref.Selection()
-    # print(userPref.keys())
-    # print(userPref.to_json())
     top3Counties = []
-    RecommendedCounty ={}
-    for  index , row in userPref.iterrows():
+    if(len(selection)>0):
+        userPref = CountySelection(selection) 
+        userPref = userPref.Selection()
+        
+        RecommendedCounty ={}
+        for  index , row in userPref.iterrows():
         # print(item[0])
-        RecommendedCounty =  {'AggregatedValue': row['AggregatedValue'],
-        'CountyName':row['CountyName'], 
-        'CountyWikiLink': row['CountyWikiLink'], 
-        'Latitude' : row['Latitude'],
-        'Longitude' : row['Longitude'], 
-        'Population': row['Population'], 
-        'StateLatitude' : row['StateLatitude'], 
-        'StateLongitude' : row['StateLongitude'],
-        'StateName' : row['StateName'], 
-        'StateShortName': row['StateShortName'], 
-        'TotalArea' : row['TotalArea']
-        }
-        top3Counties.append(RecommendedCounty)
+            RecommendedCounty =  {'AggregatedValue': row['AggregatedValue'],
+            'CountyName':row['CountyName'], 
+            'CountyWikiLink': row['CountyWikiLink'], 
+            'Latitude' : row['Latitude'],
+            'Longitude' : row['Longitude'], 
+            'Population': row['Population'], 
+            'StateLatitude' : row['StateLatitude'], 
+            'StateLongitude' : row['StateLongitude'],
+            'StateName' : row['StateName'], 
+            'StateShortName': row['StateShortName'], 
+            'TotalArea' : row['TotalArea']
+            }
+            top3Counties.append(RecommendedCounty)
     #   Send back the html back to user
     return jsonify(top3Counties)
   
@@ -187,6 +199,8 @@ def result(userSelection):
 # Initiate Flask app
 #------------------------------------------------------------------------------------#
 if __name__=="__main__":
-    connect_args={'check_same_thread':False}
+    connect_args={'check_same_thread':False} 
+    InitializeDataBase() 
     app.run(debug=True)
+    
 

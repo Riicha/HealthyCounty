@@ -5,17 +5,31 @@ from bs4 import BeautifulSoup
 
 class CountySelection:
     def __init__(self, preferences):
-        self.StateShortName = preferences['StateShortName']
-        self.Preference1 = preferences['preference1']
-        self.Preference2 = preferences['preference2']
-        self.Preference3 = preferences['preference3']
-        self.Preference4 = preferences['preference4']
+        ## initialise all the class attributes
+        self.StateShortName = ""
+        self.Preference1 = ""
+        self.Preference2 = ""
+        self.Preference3 = ""
+        self.Preference4 = ""
+
+        ## overwrite user preferences if any
+        if("StateShortName" in preferences):
+            self.StateShortName = preferences['StateShortName']
+        if("preference1" in preferences):
+            self.Preference1 = preferences['preference1']
+        if("preference2" in preferences):
+            self.Preference2 = preferences['preference2']
+        if("preference3" in preferences):
+            self.Preference3 = preferences['preference3']
+        if("preference4" in preferences):
+            self.Preference4 = preferences['preference4']
 
     
     
     def Selection(self):
         #Connection for local host
-        conn = 'mongodb://localhost:27017'
+        #### conn = 'mongodb://localhost:27017' or "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
+        conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
         client = MongoClient(conn)
         db=client.healthi_db
         ## Connection for remote host
@@ -24,12 +38,7 @@ class CountySelection:
         # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
         # db = client.get_default_database()
         
-        # TBD Need to use aggregate function to optimize
-        # aggregate([
-        #              { $match: { status: "A" } },
-        #              { $group: { _id: "$cust_id", total: { $sum: "$amount" } } },
-        #              { $sort: { total: -1 } }
-        #            ])
+
         Counties = []
         top1County = 1
         for item in db.State.find({'StateShortName': self.StateShortName}): 
@@ -91,10 +100,10 @@ class CountySelection:
         if ( len(Counties)> 0) :
             df= df.sort_values(by=['AggregatedValue'], ascending=[True] )
         top3 = df.head(3)
-
+ 
         return top3
 
-
+## Debug code for running the file locally
 # p1 = CountySelection({"StateShortName" : "NJ", 
 #                       "preference1" : "QualityofLife",
 #                       "preference2":"HealthBehaviours",

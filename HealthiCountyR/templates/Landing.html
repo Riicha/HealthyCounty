@@ -16,7 +16,7 @@
   crossorigin=""></script>  
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> 
 
 
 
@@ -85,7 +85,12 @@
 
                                     </tbody>
                                 </table>
-
+                                <div align="left"> NOTE:
+                                        <li>Select State and see all counties marked on the map.
+                                        <li>Select State and county to get county's ranking.
+                                        <li>Select State and Attribute to get the top 3 counties.
+                                        <li>Click on the icons on the map for more details.
+                                </div>
                             </div>
                         </div>
                 </div>
@@ -123,11 +128,11 @@
         <div id="state" class="container"> 
             <div class="row">
                 <br>
-                <h4>Top 10 Counties of a State based on Health Factors</h4>
+                <h3 align="left">Top 10 Counties of a State based on Health Factors</h3>
                 <br>
-                <br>
-                <br>
+
             </div> 
+            <div align="left"> NOTE: Select State to get its top 10 Counties</div>
             <div class="row">
                 <div class="col-lg-4 text-center">                    
                         <select class="form-control" id="stateselect2"> <option value="empty">Select State</option>
@@ -160,7 +165,10 @@
     </div>
     <hr>
     <!--  -----------------UC3-----Begin------------------------  -->
-    <h3>User's Choice :      Select Attributes and a State to get details of Top 3 Healthy Counties</h3>
+    <h3 align="left">User's Choice :      Select Attributes and a State to get details of Top 3 Healthy Counties</h3>
+    <br>
+    <br>
+    <div align="left"> NOTE: Check the map again to locate these counties.</div>
     <!-- div class="jumbotron text-center" --> 
         <div id="UC3"></div>
         
@@ -216,6 +224,7 @@
             
             <div class="col-md-2 dropDownlabels">
                 <select class="form-control" id="Preference2" name="Preference2"> 
+                    <option value="empty">Select Attribute</option>
                     <option value = "QualityofLife">Quality of Life</option>
                     <option value = "EconomicFactors">Economic Factors</option>
                     <option value = "PhysicalEnvironment">Physical Environment</option>

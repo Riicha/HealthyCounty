@@ -1207,7 +1207,7 @@
         "Longitude": "\u201391.429413\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Arkansas_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARAshley": {
         "StateShortName": "AR",
@@ -1218,7 +1218,7 @@
         "Longitude": "\u201391.785346\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Ashley_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARBaxter": {
         "StateShortName": "AR",
@@ -1229,7 +1229,7 @@
         "Longitude": "\u201392.354317\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Baxter_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARBenton": {
         "StateShortName": "AR",
@@ -1240,7 +1240,7 @@
         "Longitude": "\u201394.246822\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Benton_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARBoone": {
         "StateShortName": "AR",
@@ -1251,7 +1251,7 @@
         "Longitude": "\u201393.065891\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Boone_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARBradley": {
         "StateShortName": "AR",
@@ -1262,7 +1262,7 @@
         "Longitude": "\u201392.141138\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Bradley_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCalhoun": {
         "StateShortName": "AR",
@@ -1273,7 +1273,7 @@
         "Longitude": "\u201392.510135\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Calhoun_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCarroll": {
         "StateShortName": "AR",
@@ -1284,7 +1284,7 @@
         "Longitude": "\u201393.566034\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Carroll_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARChicot": {
         "StateShortName": "AR",
@@ -1295,7 +1295,7 @@
         "Longitude": "\u201391.309446\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Chicot_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARClark": {
         "StateShortName": "AR",
@@ -1306,7 +1306,7 @@
         "Longitude": "\u201393.157703\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Clark_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARClay": {
         "StateShortName": "AR",
@@ -1317,7 +1317,7 @@
         "Longitude": "\u201390.400570\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Clay_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCleburne": {
         "StateShortName": "AR",
@@ -1328,7 +1328,7 @@
         "Longitude": "\u201392.060882\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Cleburne_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCleveland": {
         "StateShortName": "AR",
@@ -1339,7 +1339,7 @@
         "Longitude": "\u201392.216337\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Cleveland_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARColumbia": {
         "StateShortName": "AR",
@@ -1350,7 +1350,7 @@
         "Longitude": "\u201393.229778\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Columbia_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARConway": {
         "StateShortName": "AR",
@@ -1361,7 +1361,7 @@
         "Longitude": "\u201392.713984\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Conway_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCraighead": {
         "StateShortName": "AR",
@@ -1372,7 +1372,7 @@
         "Longitude": "\u201390.631993\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Craighead_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCrawford": {
         "StateShortName": "AR",
@@ -1383,7 +1383,7 @@
         "Longitude": "\u201394.260230\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Crawford_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCrittenden": {
         "StateShortName": "AR",
@@ -1394,7 +1394,7 @@
         "Longitude": "\u201390.272800\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Crittenden_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARCross": {
         "StateShortName": "AR",
@@ -1405,7 +1405,7 @@
         "Longitude": "\u201390.786115\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Cross_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARDallas": {
         "StateShortName": "AR",
@@ -1416,7 +1416,7 @@
         "Longitude": "\u201392.608187\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Dallas_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARDesha": {
         "StateShortName": "AR",
@@ -1427,7 +1427,7 @@
         "Longitude": "\u201391.350302\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Desha_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARDrew": {
         "StateShortName": "AR",
@@ -1438,7 +1438,7 @@
         "Longitude": "\u201391.735642\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Drew_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARFaulkner": {
         "StateShortName": "AR",
@@ -1449,7 +1449,7 @@
         "Longitude": "\u201392.379944\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Faulkner_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARFranklin": {
         "StateShortName": "AR",
@@ -1460,7 +1460,7 @@
         "Longitude": "\u201393.884506\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Franklin_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARFulton": {
         "StateShortName": "AR",
@@ -1471,7 +1471,7 @@
         "Longitude": "\u201391.729311\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Fulton_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARGarland": {
         "StateShortName": "AR",
@@ -1482,7 +1482,7 @@
         "Longitude": "\u201393.075894\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Garland_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARGrant": {
         "StateShortName": "AR",
@@ -1493,7 +1493,7 @@
         "Longitude": "\u201392.450809\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Grant_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARGreene": {
         "StateShortName": "AR",
@@ -1504,7 +1504,7 @@
         "Longitude": "\u201390.513709\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Greene_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARHempstead": {
         "StateShortName": "AR",
@@ -1515,7 +1515,7 @@
         "Longitude": "\u201393.647930\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Hempstead_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARHot Spring": {
         "StateShortName": "AR",
@@ -1526,7 +1526,7 @@
         "Longitude": "\u201392.891238\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Hot_Spring_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARHoward": {
         "StateShortName": "AR",
@@ -1537,7 +1537,7 @@
         "Longitude": "\u201393.964857\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Howard_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARIndependence": {
         "StateShortName": "AR",
@@ -1548,7 +1548,7 @@
         "Longitude": "\u201391.587049\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Independence_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARIzard": {
         "StateShortName": "AR",
@@ -1559,7 +1559,7 @@
         "Longitude": "\u201391.874963\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Izard_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARJackson": {
         "StateShortName": "AR",
@@ -1570,7 +1570,7 @@
         "Longitude": "\u201391.227582\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Jackson_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARJefferson": {
         "StateShortName": "AR",
@@ -1581,7 +1581,7 @@
         "Longitude": "\u201391.987152\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Jefferson_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARJohnson": {
         "StateShortName": "AR",
@@ -1592,7 +1592,7 @@
         "Longitude": "\u201393.484633\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Johnson_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLafayette": {
         "StateShortName": "AR",
@@ -1603,7 +1603,7 @@
         "Longitude": "\u201393.563116\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Lafayette_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLawrence": {
         "StateShortName": "AR",
@@ -1614,7 +1614,7 @@
         "Longitude": "\u201391.071214\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Lawrence_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLee": {
         "StateShortName": "AR",
@@ -1625,7 +1625,7 @@
         "Longitude": "\u201390.763960\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Lee_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLincoln": {
         "StateShortName": "AR",
@@ -1636,7 +1636,7 @@
         "Longitude": "\u201391.709049\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Lincoln_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLittle River": {
         "StateShortName": "AR",
@@ -1647,7 +1647,7 @@
         "Longitude": "\u201394.220589\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Little_River_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLogan": {
         "StateShortName": "AR",
@@ -1658,7 +1658,7 @@
         "Longitude": "\u201393.755313\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Logan_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARLonoke": {
         "StateShortName": "AR",
@@ -1669,7 +1669,7 @@
         "Longitude": "\u201391.912157\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Lonoke_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMadison": {
         "StateShortName": "AR",
@@ -1680,7 +1680,7 @@
         "Longitude": "\u201393.730452\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Madison_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMarion": {
         "StateShortName": "AR",
@@ -1691,7 +1691,7 @@
         "Longitude": "\u201392.681404\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Marion_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMiller": {
         "StateShortName": "AR",
@@ -1702,7 +1702,7 @@
         "Longitude": "\u201393.968079\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Miller_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMississippi": {
         "StateShortName": "AR",
@@ -1713,7 +1713,7 @@
         "Longitude": "\u201390.030415\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Mississippi_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMonroe": {
         "StateShortName": "AR",
@@ -1724,7 +1724,7 @@
         "Longitude": "\u201391.207816\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Monroe_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARMontgomery": {
         "StateShortName": "AR",
@@ -1735,7 +1735,7 @@
         "Longitude": "\u201393.643872\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Montgomery_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARNevada": {
         "StateShortName": "AR",
@@ -1746,7 +1746,7 @@
         "Longitude": "\u201393.327444\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Nevada_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARNewton": {
         "StateShortName": "AR",
@@ -1757,7 +1757,7 @@
         "Longitude": "\u201393.188458\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Newton_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "AROuachita": {
         "StateShortName": "AR",
@@ -1768,7 +1768,7 @@
         "Longitude": "\u201392.861447\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Ouachita_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPerry": {
         "StateShortName": "AR",
@@ -1779,7 +1779,7 @@
         "Longitude": "\u201392.861630\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Perry_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPhillips": {
         "StateShortName": "AR",
@@ -1790,7 +1790,7 @@
         "Longitude": "\u201390.761973\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Phillips_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPike": {
         "StateShortName": "AR",
@@ -1801,7 +1801,7 @@
         "Longitude": "\u201393.656805\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Pike_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPoinsett": {
         "StateShortName": "AR",
@@ -1812,7 +1812,7 @@
         "Longitude": "\u201390.603918\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Poinsett_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPolk": {
         "StateShortName": "AR",
@@ -1823,7 +1823,7 @@
         "Longitude": "\u201394.253631\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Polk_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPope": {
         "StateShortName": "AR",
@@ -1834,7 +1834,7 @@
         "Longitude": "\u201393.084446\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Pope_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPrairie": {
         "StateShortName": "AR",
@@ -1845,7 +1845,7 @@
         "Longitude": "\u201391.534077\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Prairie_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARPulaski": {
         "StateShortName": "AR",
@@ -1856,7 +1856,7 @@
         "Longitude": "\u201392.294471\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Pulaski_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARRandolph": {
         "StateShortName": "AR",
@@ -1867,7 +1867,7 @@
         "Longitude": "\u201390.988939\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Randolph_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARFrancis": {
         "StateShortName": "AR",
@@ -1878,7 +1878,7 @@
         "Longitude": "\u201390.708841\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/St._Francis_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARSaline": {
         "StateShortName": "AR",
@@ -1889,7 +1889,7 @@
         "Longitude": "\u201392.636449\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Saline_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARScott": {
         "StateShortName": "AR",
@@ -1900,7 +1900,7 @@
         "Longitude": "\u201394.089691\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Scott_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARSearcy": {
         "StateShortName": "AR",
@@ -1911,7 +1911,7 @@
         "Longitude": "\u201392.688268\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Searcy_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARSebastian": {
         "StateShortName": "AR",
@@ -1922,7 +1922,7 @@
         "Longitude": "\u201394.351769\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Sebastian_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARSevier": {
         "StateShortName": "AR",
@@ -1933,7 +1933,7 @@
         "Longitude": "\u201394.262899\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Sevier_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARSharp": {
         "StateShortName": "AR",
@@ -1944,7 +1944,7 @@
         "Longitude": "\u201391.498459\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Sharp_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARStone": {
         "StateShortName": "AR",
@@ -1955,7 +1955,7 @@
         "Longitude": "\u201392.169912\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Stone_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARUnion": {
         "StateShortName": "AR",
@@ -1966,7 +1966,7 @@
         "Longitude": "\u201392.612793\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Union_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARVan Buren": {
         "StateShortName": "AR",
@@ -1977,7 +1977,7 @@
         "Longitude": "\u201392.414162\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Van_Buren_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARWashington": {
         "StateShortName": "AR",
@@ -1988,7 +1988,7 @@
         "Longitude": "\u201394.198684\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Washington_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARWhite": {
         "StateShortName": "AR",
@@ -1999,7 +1999,7 @@
         "Longitude": "\u201391.730562\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/White_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARWoodruff": {
         "StateShortName": "AR",
@@ -2010,7 +2010,7 @@
         "Longitude": "\u201391.244090\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Woodruff_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "ARYell": {
         "StateShortName": "AR",
@@ -2021,7 +2021,7 @@
         "Longitude": "\u201393.362084\u00b0",
         "CountyWikiLink": "https://en.wikipedia.org/wiki/Yell_County,_Arkansas",
         "StateLatitude": 34.969704,
-        "StateLongitude": 92.373123
+        "StateLongitude": -92.373123
     },
     "CAAlameda": {
         "StateShortName": "CA",

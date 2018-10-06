@@ -18,15 +18,16 @@ function displayCounties() {
     console.log(userSelection);
 
     var userSelectionUrl = `/attributeSelection/${userSelection}`;
-
-    Plotly.d3.json(userSelectionUrl, function(error, response){
+    var res = userSelectionUrl.split("empty");
+    if (res.length != 5){
+    Plotly.d3.json(userSelectionUrl, function(error, response){ // ajax call
 
        console.log(response); 
         if (error) {
           return console.log(error);
         }
  
-    if (response !=undefined && response.length > 0 ) {
+    if (response !=undefined && response.length > 0 ) { // Null check
     console.log(response);
     
     var html = '<table style="width:100%" id="uc3" class="table table-hover" >';
@@ -53,27 +54,33 @@ function displayCounties() {
     html += '<td> <div class="countyData"> <a { color: inherit; }  href="' + response[0].CountyWikiLink + '"  target="_blank">' + response[0].CountyName +'</div>' +' </td>';
     html += '</tr>';
 
-    html += '<tr>';    
-    html += '<td>' + response[1].StateName + '</td>';
-    html += '<td>' + response[1].CountyName + '</td>';
-    html += '<td>' + response[1].AggregatedValue.toFixed(5) + '</td>' ;
-    html += '<td>' + response[1].Population + '</td>';
-    html += '<td>' + response[1].TotalArea + '</td>';
-    html += '<td>' + response[1].Latitude + '</td>';
-    html += '<td>' + response[1].Longitude + '</td>';
-    html += '<td class="linkFill"> <div class="countyData"> <a { color: inherit; }  href="' + response[1].CountyWikiLink + '"  target="_blank">' + response[1].CountyName +'</div>' +' </td>';
-    html += '</tr>';
-
-    html += '<tr>';    
-    html += '<td>' + response[2].StateName + '</td>';
-    html += '<td>' + response[2].CountyName + '</td>';
-    html += '<td>' + response[2].AggregatedValue.toFixed(5) + '</td>' ;
-    html += '<td>' + response[2].Population + '</td>';
-    html += '<td>' + response[2].TotalArea + '</td>';
-    html += '<td>' + response[2].Latitude + '</td>';
-    html += '<td>' + response[2].Longitude + '</td>';
-    html += '<td> <div class="countyData"> <a { color: inherit; } href="' + response[2].CountyWikiLink + '"  target="_blank">' + response[2].CountyName +'</div>' +' </td>';
-    html += '</tr>';
+       
+    if (response.length > 1){
+        html += '<tr>'; 
+        html += '<td>' + response[1].StateName + '</td>';
+        html += '<td>' + response[1].CountyName + '</td>';
+        html += '<td>' + response[1].AggregatedValue.toFixed(5) + '</td>' ;
+        html += '<td>' + response[1].Population + '</td>';
+        html += '<td>' + response[1].TotalArea + '</td>';
+        html += '<td>' + response[1].Latitude + '</td>';
+        html += '<td>' + response[1].Longitude + '</td>';
+        html += '<td class="linkFill"> <div class="countyData"> <a { color: inherit; }  href="' + response[1].CountyWikiLink + '"  target="_blank">' + response[1].CountyName +'</div>' +' </td>';
+        html += '</tr>';
+    }
+    
+    if (response.length > 2){
+        html += '<tr>';    
+        html += '<td>' + response[2].StateName + '</td>';
+        html += '<td>' + response[2].CountyName + '</td>';
+        html += '<td>' + response[2].AggregatedValue.toFixed(5) + '</td>' ;
+        html += '<td>' + response[2].Population + '</td>';
+        html += '<td>' + response[2].TotalArea + '</td>';
+        html += '<td>' + response[2].Latitude + '</td>';
+        html += '<td>' + response[2].Longitude + '</td>';
+        html += '<td> <div class="countyData"> <a { color: inherit; } href="' + response[2].CountyWikiLink + '"  target="_blank">' + response[2].CountyName +'</div>' +' </td>';
+        html += '</tr>';
+    }
+    
 
     html += '</table>';
 
@@ -150,6 +157,10 @@ function displayCounties() {
         }
     }
     })
+}
+else {
+    alert("Please select atleast one attribute!");
+}
 }
 
 
