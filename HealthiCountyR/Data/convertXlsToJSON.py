@@ -2,7 +2,6 @@
 import xlrd
 from glob2 import glob
 import json
-import pymongo
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 import requests
@@ -105,13 +104,11 @@ def CreateMongoDataBase():
                 }
             #     # Add to dictiory for quick retrival
             scrapedCounties[data["StateShortName"]+data["CountyName"]] = data
-            # if (tds[1].text =='NJ'):
-            #     print(ScrapedCounty)
+
        
         xlsFilesOnly = glob(filePath+"*.xls") # parse all xls file(s) only
         StateList = []
-        print("---------------xlsFilesOnly")
-        print(xlsFilesOnly)
+        
         for xlsfile in xlsFilesOnly:
             yearReported = xlsfile[:4]
             wb = xlrd.open_workbook(xlsfile,ragged_rows = True) 
@@ -204,17 +201,15 @@ def CreateMongoDataBase():
 
 
         ####Connection for local host
-        # conn = "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
-        # client = pymongo.MongoClient(conn)
-        # conn= 'mongodb://localhost:27017/healthi_db' or 
-        # # db=client.healthi_db
+        conn= 'mongodb://localhost:27017/healthi_db'
+        client = MongoClient(conn) 
+        db=client.healthi_db
 
         
         #### Connection for remote host
         # conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-        conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
-        client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-        db = client.get_database()
+        # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+        # db = client.get_database()
 
         #create list of categories
         Category = ["QualityofLife","EconomicFactors","ClinicalCare","HealthBehaviours","PhysicalEnvironment"]
@@ -229,13 +224,11 @@ def CreateMongoDataBase():
 
         #drop/create collection State.
         db.State.drop()
-        if(len(StateList)==0):
-            print("State list not populated")
         state = db.State
         #insert into State collection
         state.insert_many(StateList)
         # result = state.insert_many(StateList)
-        # print("Multiple States {0}".format(result.inserted_ids))
+
         
 # CreateMongoDataBase()
  

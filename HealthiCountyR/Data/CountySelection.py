@@ -28,14 +28,13 @@ class CountySelection:
     
     def Selection(self):
         #Connection for local host
-        #### conn = 'mongodb://localhost:27017' or "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
-        conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
+        conn = 'mongodb://localhost:27017'
         client = MongoClient(conn)
         db=client.healthi_db
+
         ## Connection for remote host
         # conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-        # conn = 'mongodb://Riicha:mlabpolkA#1122@ds113873.mlab.com:13873/healthi_db'
-        # client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
+        # client = MongoClient(conn,ConnectTimeoutMS=30000)
         # db = client.get_default_database()
         
 
@@ -112,4 +111,3 @@ class CountySelection:
 #                     })
 
 # s= p1.Selection()
-# print(s)

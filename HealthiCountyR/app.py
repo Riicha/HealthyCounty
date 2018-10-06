@@ -1,4 +1,4 @@
-import pymongo 
+from pymongo import MongoClient
 from flask import(Flask, render_template, jsonify)
 from .Data.CountySelection import CountySelection
 from .Data.convertXlsToJSON import CreateMongoDataBase
@@ -15,26 +15,23 @@ app = Flask(__name__, template_folder='templates') # For Heroku
 #------------------------------------------------------------------------------------#
 # Local MongoDB connection #
 #------------------------------------------------------------------------------------#
-# conn = "mongodb://localhost:27017" or "mongodb://heroku_cgn3rms9:gv1vkv7cl6830c9slj3i3lv32c@ds121593.mlab.com:21593/heroku_cgn3rms9"
-# client = pymongo.MongoClient(conn)
-# # create / Use database
-# db = client.healthi_db
+conn = "mongodb://localhost:27017" 
+client = MongoClient(conn)
+# create / Use database
+db = client.healthi_db
 #------------------------------------------------------------------------------------#
 # MLab MongoDB connection #
 #------------------------------------------------------------------------------------#
-#### Connection for remote host
-####conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
-conn = 'mongodb://Riicha:polkA#1122@ds113873.mlab.com:13873/healthi_db'
-client = pymongo.MongoClient(conn,ConnectTimeoutMS=30000)
-db = client.get_default_database()
+# #### Connection for remote host
+# conn = 'mongodb://<dbuser>:<dbpassword>@ds255332.mlab.com:55332/healthi_db'
+# client = MongoClient(conn,ConnectTimeoutMS=30000)
+# db = client.get_default_database()
 #------------------------------------------------------------------------------------#
 #### Initialise and populate the Collection / Database
 #------------------------------------------------------------------------------------#
 def InitializeDataBase():
     CreateMongoDataBase()
-    print("CreateMongoDataBase")
     mongodbset()
-    print("mongodbset")
 
 #------------------------------------------------------------------------------------#
 # Home Page
